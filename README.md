@@ -1,3 +1,3 @@
 # DetectiveGlobalJam
 
-The best game everf.,!
+The best game eveeerf.,!
