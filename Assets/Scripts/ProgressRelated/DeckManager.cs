@@ -2,22 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeckManager : MonoBehaviour, ISubscriber
+public class DeckManager : Singleton<DeckManager>, ISubscriber
 {
-    // Start is called before the first frame update
-    void Start()
+    public EvidenceParser[] referencedEvidenceObjects;
+    
+    void Awake()
     {
         ProgressManager.instance.AddSubscriber(this);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 
     public void GetUpdate(int id)
     {
-        throw new System.NotImplementedException();
+        switch (id)
+        {
+            
+        }
     }
+}
+
+public class EvidenceParser
+{
 }

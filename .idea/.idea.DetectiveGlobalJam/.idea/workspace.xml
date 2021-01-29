@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13ed1976-bc31-414d-b887-d6f8c85a3f80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HintManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HintManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/Singleton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/ProgressManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/ProgressManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,14 +29,14 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/ProgressManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/ProgressManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/Singleton.cs" />
       <option value="$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/PlayerStates/PlayerNormalState.cs" />
       <option value="$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/StateMachine/StateMachine.cs" />
       <option value="$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/InputContoller.cs" />
       <option value="$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/PlayerStates/PlayerBusyState.cs" />
       <option value="$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/StateMachine/State.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/ProgressManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1niiZCq78AgDQ3kJWD6sTXAVaLV" />
@@ -86,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611879391743</updated>
       <workItem from="1611879411963" duration="621000" />
-      <workItem from="1611917286976" duration="8243000" />
+      <workItem from="1611917286976" duration="9067000" />
     </task>
     <servers />
   </component>

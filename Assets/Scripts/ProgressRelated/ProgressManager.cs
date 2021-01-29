@@ -36,7 +36,7 @@ public class ProgressManager : Singleton<ProgressManager>
 
     public void AddSubscriber(ISubscriber sub)
     {
-        if(sub != null)
+        if(sub != null && subscribers.Contains(sub) == false)
             subscribers.Add(sub);
     }
 
