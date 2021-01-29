@@ -264,6 +264,9 @@
           </e>
           <e p="Management" t="Include">
             <e p="InputManager.cs" t="Include" />
+            <e p="MainMenuManager.cs" t="Include" />
+            <e p="PauseManager.cs" t="Include" />
+            <e p="TranslateManager.cs" t="Include" />
           </e>
           <e p="ProgressRelated" t="Include">
             <e p="DeckManager.cs" t="Include" />

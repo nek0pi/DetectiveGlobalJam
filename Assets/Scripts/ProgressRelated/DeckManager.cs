@@ -17,11 +17,11 @@ public class DeckManager : Singleton<DeckManager>, ISubscriber
         // If there is evidence parser with this evidence id - set it to active
         foreach (var evParser in referencedEvidenceObjects)
         {
-            if (evParser.evidenceInfo.id == id)
-            {
-                evParser.gameObject.SetActive(true);
-                break;
-            }
+            // if (evParser.evidenceInfo.id == id)
+            // {
+            //     evParser.gameObject.SetActive(true);
+            //     break;
+            // }
         }
     }
 }
