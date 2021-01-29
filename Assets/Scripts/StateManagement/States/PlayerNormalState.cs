@@ -8,7 +8,7 @@ public class PlayerNormalState : State
 
     public override IEnumerator Move(Vector2 inp)
     {
-        _playerController.MovementController.Move(inp);
+        //_playerController.MovementController.Move(inp);
         yield break;
     }
 }
