@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerContoller : StateMachine
+public class PlayerController : StateMachine
 {
     [HideInInspector]
     public MovementController MovementController;

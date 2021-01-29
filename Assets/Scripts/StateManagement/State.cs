@@ -3,11 +3,11 @@ using UnityEngine;
 
 public abstract class State
 {
-    protected readonly InputContoller _inputcontoller;
+    protected readonly PlayerContoller _playerController;
 
-    public State(InputContoller sm)
+    public State(PlayerContoller pc)
     {
-        _inputcontoller = sm;
+        _playerController = pc;
     }
 
     public virtual IEnumerator StartState()

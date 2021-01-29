@@ -6,7 +6,6 @@ public class MovementController : StateMachine
 {
     private void Awake()
     {
-        currentState = new MovementNormalState(this);
     }
 
     private void Update()
