@@ -249,6 +249,10 @@
         <e p="Scripts" t="Include">
           <e p="HintManager.cs" t="Include" />
           <e p="Interactive.cs" t="Include" />
+          <e p="ProgressManager.cs" t="Include" />
+          <e p="Utils" t="Include">
+            <e p="Singleton.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="DetectiveGlobalJam.sln" t="IncludeFlat" />

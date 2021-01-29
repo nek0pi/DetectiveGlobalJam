@@ -30,7 +30,12 @@ MonoBehaviour:
     serializationDepthLimit: 64
     assemblyNames:
     - Assembly-CSharp-firstpass
+    - DOTween.Modules
+    - YarnSpinner.Unity
+    - Cinemachine
+    - Assembly-CSharp
     - PsdPlugin
+    - YarnSpinner.Unity.Editor
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1
