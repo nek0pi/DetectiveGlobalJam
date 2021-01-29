@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Singleton<T> : MonoBehaviour
+public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 {
-    public T instance;
+    public static T instance;
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (instance == null)
+        {
+            instance = FindObjectOfType<T>();
+        }
+        else
+            Destroy(gameObject);
+        DontDestroyOnLoad(gameObject);
     }
 }

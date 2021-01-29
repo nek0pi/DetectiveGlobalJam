@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProgressManager : Singleton<ProgressManager>
+public class DeckManager : MonoBehaviour, ISubscriber
 {
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("hello");
-        Debug.Log("hello2");
+        ProgressManager.instance.AddSubscriber(this);
     }
 
     // Update is called once per frame
@@ -17,4 +16,8 @@ public class ProgressManager : Singleton<ProgressManager>
         
     }
 
+    public void GetUpdate(int id)
+    {
+        throw new System.NotImplementedException();
+    }
 }
