@@ -6,6 +6,7 @@ using UnityEngine;
 public class LocalizationManager : Singleton<LocalizationManager>
 {
     [SerializeField] GameObject leanLocalizationPrefab;
+    [SerializeField] Language currentLanguage = Language.English;
 
     public void Start()
     {
@@ -17,6 +18,28 @@ public class LocalizationManager : Singleton<LocalizationManager>
     }
     public static void ChangeLanguage(string languageName)
     {
-        Lean.Localization.LeanLocalization.CurrentLanguage = languageName;
+        switch (languageName)
+        {
+            case "Russian":
+                Lean.Localization.LeanLocalization.CurrentLanguage = languageName;
+                LocalizationManager.Instance.currentLanguage = Language.Russian;
+                //Add yarn localization
+                break;
+            case "English":
+                Lean.Localization.LeanLocalization.CurrentLanguage = languageName;
+                LocalizationManager.Instance.currentLanguage = Language.English;
+                //Add yarn localization
+                break;
+        }
+       
     }
+
+    public static string GetTranslation(string textName)
+    {
+        return Lean.Localization.LeanLocalization.GetTranslationText(textName);
+    }
+}
+public enum Language
+{ 
+    Russian, English
 }
