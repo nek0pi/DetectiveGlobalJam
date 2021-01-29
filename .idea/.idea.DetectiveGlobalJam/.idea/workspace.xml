@@ -3,9 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="13ed1976-bc31-414d-b887-d6f8c85a3f80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Easy Save 3/Resources/ES3/ES3Defaults.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Easy Save 3/Resources/ES3/ES3Defaults.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/EvidenceData/SecretKey.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/EvidenceData/SecretKey.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/MovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/MovementController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Evidence/EvidenceParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Evidence/EvidenceParser.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/ProgressManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/ProgressManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StateManagement/State.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StateManagement/State.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StateManagement/StateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StateManagement/StateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StateManagement/States/PlayerNormalState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StateManagement/States/PlayerNormalState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +30,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Evidence/Evidence.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Managers/ToggleController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/GameDev/GameJams/DetectiveGlobalJam2021/DetectiveGlobalJam/Assets/Plugins/Easy Save 3/Resources/ES3/ES3Defaults.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Managers/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/InputContoller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Managers/SpawnerManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -28,6 +38,7 @@
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/StateMachine/StateMachine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/StateMachine/State.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/PlayerStates/PlayerNormalState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -38,9 +49,18 @@
       <option value="$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/PlayerStates/PlayerBusyState.cs" />
       <option value="$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/StateMachine/State.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/ISubscriber.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/StateManagement/States/PlayerNormalState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/StateManagement/State.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/StateManagement/StateMachine.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/MovementController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/Singleton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/ProgressManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Shaders/BlurLerp.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Shaders/FadeInAlpha.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Evidence/EvidenceParser.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1niiZCq78AgDQ3kJWD6sTXAVaLV" />
@@ -69,10 +89,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="8272">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="11228">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="8272" />
+      <option name="pid" value="11228" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -89,6 +109,7 @@
       <updated>1611879391743</updated>
       <workItem from="1611879411963" duration="621000" />
       <workItem from="1611917286976" duration="12284000" />
+      <workItem from="1611943100343" duration="5914000" />
     </task>
     <servers />
   </component>
@@ -107,8 +128,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Shaders/BlurLerp.cs</url>
+          <line>14</line>
+          <properties documentPath="D:\GameDev\GameJams\DetectiveGlobalJam2021\DetectiveGlobalJam\Assets\Scripts\Shaders\BlurLerp.cs" initialLine="13" containingFunctionPresentation="method 'Awake'">
+            <startOffsets>
+              <option value="331" />
+            </startOffsets>
+            <endOffsets>
+              <option value="366" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

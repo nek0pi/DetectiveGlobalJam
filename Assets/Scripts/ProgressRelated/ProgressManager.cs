@@ -1,47 +1,48 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class ProgressManager : Singleton<ProgressManager>
 {
-    private List<Evidence> availableEvidence { get; } = new List<Evidence>();
+    private Dictionary<int, Evidence> availableEvidence { get; } = new Dictionary<int, Evidence>();
     public List<Evidence> CriticalEvidence { get; } = new List<Evidence>();
     public List<Evidence> AdditionalEvidence { get; } = new List<Evidence>();
     private List<ISubscriber> subscribers{ get; } = new List<ISubscriber>();
 
     private void Start()
     {
-        var allEvidence = Resources.LoadAll<Evidence>("Assets/Resources/EvidenceData/");
-        foreach (var ev in allEvidence)
+        var allEvidence = Resources.LoadAll<Evidence>("EvidenceData/");
+        for (int i = 0; i < allEvidence.Length; i++)
         {
-            Debug.Log(ev.partialDescription);
+            availableEvidence.Add(allEvidence[i].id, allEvidence[i]); 
         }
     }
     
 
-    public void AddCriticalEvidence(Evidence newEvidence)
+    public void AddCriticalEvidence(int id)
     {
-        if(newEvidence == null) return;
+        if(availableEvidence[id] == null) return;
         
-        CriticalEvidence.Add(newEvidence);
-        NotifySubscribers(newEvidence);
+        CriticalEvidence.Add(availableEvidence[id]);
+        NotifySubscribers(availableEvidence[id]);
     }
     
-    public void RemoveCriticalEvidence(Evidence oldEvidence)
+    public void RemoveCriticalEvidence(int id)
     {
-        if (oldEvidence != null && CriticalEvidence.Contains(oldEvidence))
+        if (availableEvidence[id] != null && CriticalEvidence.Contains(availableEvidence[id]))
         {
-            CriticalEvidence.Remove(oldEvidence);
+            CriticalEvidence.Remove(availableEvidence[id]);
         }
     }
 
-    public void AddAdditionalEvidence(Evidence newAdditionalEvidence)
+    public void AddAdditionalEvidence(int id)
     {
-        if(newAdditionalEvidence == null) return;
+        if(availableEvidence[id] == null) return;
         
-        AdditionalEvidence.Add(newAdditionalEvidence);
-        NotifySubscribers(newAdditionalEvidence);
+        AdditionalEvidence.Add(availableEvidence[id]);
+        NotifySubscribers(availableEvidence[id]);
     }
 
     #region Observable Behavior
