@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 {
-    public static T instance;
-    void Start()
+    private static T instance;
+
+    public static T Instance
     {
-        if (instance == null)
+        get
         {
-            instance = FindObjectOfType<T>();
+            if (instance == null)
+            {
+                instance = FindObjectOfType<T>();
+                DontDestroyOnLoad(instance.gameObject);
+            }
+            else
+                Destroy(instance.gameObject);
+
+            return instance;
         }
-        else
-            Destroy(gameObject);
-        DontDestroyOnLoad(gameObject);
+        private set => instance = value;
     }
 }

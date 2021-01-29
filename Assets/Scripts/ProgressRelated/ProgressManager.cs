@@ -10,9 +10,13 @@ public class ProgressManager : Singleton<ProgressManager>
     public List<Evidence> AdditionalEvidence { get; } = new List<Evidence>();
     private List<ISubscriber> subscribers{ get; } = new List<ISubscriber>();
 
-    private void Awake()
+    private void Start()
     {
-        var allEvidence = Resources.LoadAll<Evidence>("Assets/Resources/");
+        var allEvidence = Resources.LoadAll<Evidence>("Assets/Resources/EvidenceData/");
+        foreach (var ev in allEvidence)
+        {
+            Debug.Log(ev.partialDescription);
+        }
     }
     
 

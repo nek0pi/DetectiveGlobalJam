@@ -8,7 +8,7 @@ public class DeckManager : Singleton<DeckManager>, ISubscriber
     
     void Start()
     {
-        ProgressManager.instance.AddSubscriber(this);
+        ProgressManager.Instance.AddSubscriber(this);
     }
     
 
@@ -19,8 +19,4 @@ public class DeckManager : Singleton<DeckManager>, ISubscriber
             
         }
     }
-}
-
-public class EvidenceParser
-{
 }
