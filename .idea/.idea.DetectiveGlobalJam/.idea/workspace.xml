@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13ed1976-bc31-414d-b887-d6f8c85a3f80" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HintManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HintManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/Singleton.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Managers/ToggleController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/GameDev/GameJams/DetectiveGlobalJam2021/DetectiveGlobalJam/Assets/Plugins/Easy Save 3/Resources/ES3/ES3Defaults.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Managers/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/InputContoller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Managers/SpawnerManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/PlayerStates/PlayerBusyState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/StateMachine/StateMachine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/StateMachine/State.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/PlayerStates/PlayerNormalState.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/ProgressManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/ProgressManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utils/Singleton.cs" />
+      <option value="$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/PlayerStates/PlayerNormalState.cs" />
+      <option value="$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/StateMachine/StateMachine.cs" />
+      <option value="$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/InputContoller.cs" />
+      <option value="$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/PlayerStates/PlayerBusyState.cs" />
+      <option value="$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/StateMachine/State.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1niiZCq78AgDQ3kJWD6sTXAVaLV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
@@ -19,5 +76,37 @@
       </option>
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13ed1976-bc31-414d-b887-d6f8c85a3f80" name="Default Changelist" comment="" />
+      <created>1611879391743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611879391743</updated>
+      <workItem from="1611879411963" duration="621000" />
+      <workItem from="1611917286976" duration="8243000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
