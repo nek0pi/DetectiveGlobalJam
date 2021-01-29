@@ -247,10 +247,14 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Evidence" t="Include">
+            <e p="Evidence.cs" t="Include" />
+          </e>
           <e p="Interactive.cs" t="Include" />
           <e p="ProgressRelated" t="Include">
             <e p="DeckManager.cs" t="Include" />
             <e p="HintManager.cs" t="Include" />
+            <e p="ISubscriber.cs" t="Include" />
             <e p="ProgressManager.cs" t="Include" />
           </e>
           <e p="Utils" t="Include">

@@ -1,12 +1,20 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ProgressManager : Singleton<ProgressManager>
 {
+    private List<Evidence> availableEvidence { get; } = new List<Evidence>();
     public List<Evidence> CriticalEvidence { get; } = new List<Evidence>();
     public List<Evidence> AdditionalEvidence { get; } = new List<Evidence>();
-    private List<ISubscriber> subscribers;
+    private List<ISubscriber> subscribers{ get; } = new List<ISubscriber>();
+
+    private void Awake()
+    {
+        var allEvidence = Resources.LoadAll<Evidence>("Assets/Resources/");
+    }
+    
 
     public void AddCriticalEvidence(Evidence newEvidence)
     {
@@ -15,7 +23,7 @@ public class ProgressManager : Singleton<ProgressManager>
         CriticalEvidence.Add(newEvidence);
         NotifySubscribers(newEvidence);
     }
-
+    
     public void RemoveCriticalEvidence(Evidence oldEvidence)
     {
         if (oldEvidence != null && CriticalEvidence.Contains(oldEvidence))
@@ -56,16 +64,6 @@ public class ProgressManager : Singleton<ProgressManager>
 
     #endregion
     
-}
-
-public class Evidence
-{
-    public int id;
-}
-
-public interface ISubscriber
-{
-    public void GetUpdate(int id);
 }
 
 

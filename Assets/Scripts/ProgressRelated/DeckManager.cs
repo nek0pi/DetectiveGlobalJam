@@ -6,7 +6,7 @@ public class DeckManager : Singleton<DeckManager>, ISubscriber
 {
     public EvidenceParser[] referencedEvidenceObjects;
     
-    void Awake()
+    void Start()
     {
         ProgressManager.instance.AddSubscriber(this);
     }
