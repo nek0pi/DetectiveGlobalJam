@@ -3,9 +3,9 @@ using UnityEngine;
 
 public abstract class State
 {
-    protected readonly PlayerContoller _playerController;
+    protected readonly PlayerController _playerController;
 
-    public State(PlayerContoller pc)
+    public State(PlayerController pc)
     {
         _playerController = pc;
     }

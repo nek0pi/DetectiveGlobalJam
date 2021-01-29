@@ -1,0 +1,1 @@
+// Loads current selected language.

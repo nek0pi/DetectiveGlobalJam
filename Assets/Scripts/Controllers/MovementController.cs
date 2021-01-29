@@ -6,11 +6,12 @@ public class MovementController : StateMachine
 {
     private void Awake()
     {
+        // do things ...
     }
 
     private void Update()
     {
-        // do stuff
+        // do stuff ...
     }
 
     private void Move(Vector2 input)

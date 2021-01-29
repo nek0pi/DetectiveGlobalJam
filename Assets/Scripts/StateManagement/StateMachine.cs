@@ -7,8 +7,8 @@ public abstract class StateMachine : MonoBehaviour
     public void SetState(State state)
     {
         if (currentState != null)
-            StartCoroutine(currentState.Exit());
+            StartCoroutine(currentState.ExitState());
         currentState = state;
-        StartCoroutine(currentState.Start());
+        StartCoroutine(currentState.StartState());
     }
 }
