@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName ="EvidenceData", menuName = "ScriptableObjects/Create new evidence data", order = 1)]
 public class Evidence : ScriptableObject

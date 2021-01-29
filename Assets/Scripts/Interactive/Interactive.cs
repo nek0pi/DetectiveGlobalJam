@@ -5,6 +5,7 @@ using UnityEngine;
 
 public abstract class Interactive : MonoBehaviour
 {
+    [SerializeField] public int dialogIndex;
     public void Update()
     {
         //We need to get from Input Manager data of what User have clicked. 
@@ -18,9 +19,9 @@ public abstract class Interactive : MonoBehaviour
             RaycastHit hit = new RaycastHit();
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Evidence"))
+                if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Interactive"))
                 {
-                    Debug.Log("Yes");
+                    CallDialogue(dialogIndex);
                     //Call here method from dialogue controller
                 }
             }
