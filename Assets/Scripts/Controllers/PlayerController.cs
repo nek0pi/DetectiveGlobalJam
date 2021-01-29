@@ -20,7 +20,7 @@ public class PlayerContoller : StateMachine
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Interact();
+            // do stuff
         }
     }
 
