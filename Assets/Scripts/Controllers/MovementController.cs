@@ -13,4 +13,9 @@ public class MovementController : StateMachine
     {
         // do stuff
     }
+
+    private void Move(Vector2 input)
+    {
+        // move to ...
+    }
 }
