@@ -423,6 +423,7 @@
             <e p="InputManager.cs" t="Include" />
             <e p="LocalizationManager.cs" t="Include" />
             <e p="MainMenuManager.cs" t="Include" />
+            <e p="NotificationManager.cs" t="Include" />
             <e p="PauseManager.cs" t="Include" />
             <e p="TranslateManager.cs" t="Include" />
             <e p="TransportManager.cs" t="Include" />

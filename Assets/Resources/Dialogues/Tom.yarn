@@ -1,0 +1,399 @@
+title: Tom.Start
+tags: 
+colorID: 7
+position: -392,-193
+---
+<<SetSpeaker Tom>>
+Finally, I’m home. Another trashy day is over.
+I wonder if Mel’s at home.
+"Dad’s at home, sweet bun!"
+<<SetSpeaker Null>>
+...
+<<SetSpeaker Tom>>
+Guess she’s out…
+===
+title: Tom.Bathroom
+tags: 
+colorID: 0
+position: -177,25
+---
+<<SetSpeaker Tom>>
+It’s just a bathroom.
+===
+title: Tom.FamilyPicture
+tags: 
+colorID: 0
+position: -389,23
+---
+<<SetSpeaker Tom>>
+<<if $checked_family_times eq 0>>
+	This reminds me of what we have lost.
+    It pains me to think that you’re gone, Judy…
+	<<set $checked_family_times to $checked_family_times + 1>>
+<<elseif $checked_family_times eq 1>>
+	At least now I know what to do.
+	<<set $checked_family_times to $checked_family_times + 1>>
+<<else>>
+    I risk being lost in the memories.
+    I better move along, nothing to see here.
+<<endif>>
+===
+title: Tom.Kitchen
+tags: 
+colorID: 0
+position: 32,24
+---
+<<SetSpeaker Tom>>
+<<if $checked_kitchen_times eq 0>>
+	Seems like Mel have already had her dinner
+	<<set $checked_kitchen_times to $checked_kitchen_times + 1>>
+<<elseif $checked_kitchen_times eq 1>>
+	That’s weird, there are two plates here. Could she have prepared meal for me as well and then just ate it? Nah, she’s too obsessed keeping her figure thin.
+	<<set $checked_kitchen_times to $checked_kitchen_times + 1>>
+<<else>>
+    Or maybe she just skipped the school and had a lunch here as well. I better talk to her. At least she could've washed the dishes.
+<<endif>>
+===
+title: Tom.Trash
+tags: 
+colorID: 0
+position: 243,31
+---
+<<SetSpeaker Tom>>
+<<if $checked_trash_times eq 0>>
+	Aha! Junkfood! Can’t blame her though. I’m a bad chief.
+	<<set $checked_trash_times to $checked_trash_times + 1>>
+<<elseif $checked_trash_times eq 1>>
+	And a bad father.
+	<<set $checked_trash_times to $checked_trash_times + 1>>
+<<elseif $checked_trash_times eq 2>>
+	But it would be better if she switched to a more healthy diet.
+	<<set $checked_trash_times to $checked_trash_times + 1>>
+<<else>>
+	I see no reason to dig through the garbage.
+<<endif>>
+===
+title: Tom.Upstairs
+tags: 
+colorID: 0
+position: 452,29
+---
+<<SetSpeaker Tom>>
+<<if $checked_stairs_times eq 0>>
+    "Mel! You’re home?"
+    Maybe she’s listening to the music? I should check up on her.
+    <<set $checked_stairs_times to $checked__times + 1>>
+<<else>>
+	<<null>>
+<<endif>>
+===
+title: Tom.LeftRoom
+tags: 
+colorID: 0
+position: 663,27
+---
+<<SetSpeaker Tom>>
+<<if $checked_lroom_times eq 0>>
+	Guest bedroom. Who am I kidding? Nobody visits us.
+	<<set $checked_lroom_times to $checked_lroom_times + 1>>
+<<elseif $checked_lroom_times eq 1>>
+	It would make a nice room for Mel’s sibling.
+	<<set $checked_lroom_times to $checked_lroom_times + 1>>
+<<elseif $checked_lroom_times eq 2>>
+	Not a chance, I don’t wish to see any other women around here.
+	<<set $checked_lroom_times to $checked_lroom_times + 1>>
+<<else>>
+	It’s an empty room.
+<<endif>>
+===
+title: Tom.Flower
+tags: 
+colorID: 0
+position: 875,23
+---
+<<SetSpeaker Tom>>
+<<if $checked_flower_times eq 0>>
+	Nobody waters it. Should’ve get a cactus.
+	<<set $checked_flower_times to $checked_flower_times + 1>>
+<<elseif $checked_flower_times eq 1>>
+	Maybe I should get some water for it?
+	<<set $checked_flower_times to $checked_flower_times + 1>>
+<<elseif $checked_flower_times eq 2>>
+	Nah, maybe next time.
+	<<set $checked_flower_times to $checked_flower_times + 1>>
+<<else>>
+	It’s slowly dying. Like we all do…
+<<endif>>
+===
+title: Tom.MiddleRoom
+tags: 
+colorID: 0
+position: 1089,19
+---
+<<SetSpeaker Tom>>
+<<if $checked_mroom_times eq 0>>
+	That’s my bedroom.
+	<<set $checked_mroom_times to $checked_mroom_times + 1>>
+<<elseif $checked_mroom_times eq 1>>
+	I wish Judy could see it, it’s a lot more spacious than the one we had.
+	<<set $checked_mroom_times to $checked_mroom_times + 1>>
+<<elseif $checked_mroom_times eq 2>>
+	Still, I would rather return to those slums if she was there.
+	<<set $checked_mroom_times to $checked_mroom_times + 1>>
+<<else>>
+	Nothing to see there, the room is a total mess.
+<<endif>>
+===
+title: Tom.RightRoom
+tags: 
+colorID: 0
+position: 1297,21
+---
+<<SetSpeaker Tom>>
+<<if $checked_rroom_times eq 0>>
+    "Mel, can I come in?"
+    <<set $checked_rrom_times to $checked__times + 1>>
+<<else>>
+	<<null>>
+<<endif>>
+===
+title: Tom.Hanger
+tags: 
+colorID: 0
+position: 1511,23
+---
+<<SetSpeaker Tom>>
+Seems like she’s out. Otherwise her jacket would be here.
+===
+title: Tom.Posters
+tags: 
+colorID: 0
+position: 1726,23
+---
+<<SetSpeaker Tom>>
+<<if $checked_posters_times eq 0>>
+	She likes… that kind of stuff…
+	<<set $checked_posters_times to $checked_posters_times + 1>>
+<<elseif $checked_posters_times eq 1>>
+	I have no idea what’s the meaning of these posters.
+	<<set $checked_posters_times to $checked_posters_times + 1>>
+<<else>>
+	Guess I’m too old for that.
+<<endif>>
+===
+title: Tom.Table
+tags: 
+colorID: 0
+position: 1945,27
+---
+<<SetSpeaker Tom>>
+<<if $checked__times eq 0>>
+	Tons of different stuff. Wait… what’s this?
+	<<set $checked__times to $checked__times + 1>>
+<<else>>
+	A matchbook huh? I’ll take this. Now we really need to talk.
+    <<set $hasclue0 to true>>
+<<endif>>
+===
+title: Tom.Bed
+tags: 
+colorID: 0
+position: 2157,32
+---
+<<SetSpeaker Tom>>
+At least the bed is made.
+===
+title: Tom.ReceivesCall
+tags: 
+colorID: 7
+position: -176,-190
+---
+<<SetSpeaker Tom>>
+Private number?
+===
+title: Tom.CallsMel
+tags: 
+colorID: 1
+position: 38,-192
+---
+<<SetSpeaker Tom>>
+I should try to reach her. Maybe it's just a prank.
+*The subscriber you are trying to reach is unavailable. Please, try again la…*
+Figured…
+How 'bout her social network?
+That is weird, her social accounts are suspended…
+===
+title: Tom.Video
+tags: 
+colorID: 1
+position: 250,-190
+---
+<<SetSpeaker Null>>
+*New message received*
+<<SetSpeaker Tom>>
+So they actually send a video... Bastards...
+===
+title: Tom.NoLocationAvailable
+tags: 
+colorID: 1
+position: 465,-190
+---
+<<SetSpeaker Tom>>
+I have no idea where to start looking. I need to find a lead first…
+===
+title: Tom.LocationUnlocked
+tags: 
+colorID: 1
+position: 681,-194
+---
+<<SetSpeaker Tom>>
+Better call taxi now. The road will take up to one hour.
+===
+title: Tom.GetsToBar
+tags: 
+colorID: 1
+position: -392,254
+---
+<<SetSpeaker Tom>>
+Well, I saw many places like this back in my day. Time to get some info.
+===
+title: Tom.HotDogSign
+tags: 
+colorID: 0
+position: -395,470
+---
+<<SetSpeaker Tom>>
+Where could I see this one?
+===
+title: Tom.BarDoor
+tags: 
+colorID: 0
+position: -178,469
+---
+<<SetSpeaker Tom>>
+The place is closed. I doubt breaking-in would be a good idea.
+===
+title: Tom.GetsToSlums
+tags: 
+colorID: 1
+position: -396,699
+---
+<<SetSpeaker Tom>>
+<<if $hasclue3 is true>>
+    This place again… It can’t be…
+<<elseif $hasclue4 is true>>
+    This is the place. Third floor, room 302. What a coincidence…
+<<elseif $hasclue2 is true>>
+    Okay, now I need to find that guy…
+<<endif>>
+===
+title: Tom.SlumDoor
+tags: 
+colorID: 1
+position: -179,701
+---
+<<SetSpeaker Tom>>
+<<if $hasclue4 is true or $hasclue5 or $hasclue6>>
+    Here goes nothing…
+<<else>>
+    <<if $checked_slumdoor_times eq 0>>
+	    Normally I would storm the place with a SWAT team but I don’t want to bring unwanted attention.
+	<<set $checked_slumdoor_times to $checked_slumdoor_times + 1>>
+    <<elseif $checked_slumdoor_times eq 1>>
+	    First I need to get the exact address. The place is huge. I can’t just randomly knock on every door.
+	<<set $checked_slumdoor_times to $checked_slumdoor_times + 1>>
+    <<else>>
+	    I need to know the apartment number.
+    <<endif>>
+<<endif>>
+===
+title: Tom.Cinema
+tags: 
+colorID: 0
+position: -395,919
+---
+<<SetSpeaker Tom>>
+<<if $checked__times eq 0>>
+	The White Trail, huh? This cinema always has been showing mediocre movies…
+	<<set $checked__times to $checked__times + 1>>
+<<elseif $checked__times eq 1>>
+	I doubt I can find anything useful there. And besides it’s closed at this hour.
+	<<set $checked__times to $checked__times + 1>>
+<<else>>
+	I don’t have time for that.
+<<endif>>
+===
+title: Tom.BCHSign
+tags: 
+colorID: 0
+position: -178,919
+---
+<<SetSpeaker Tom>>
+Babushka’s Crunchy Hens. What a ridiculous name. The food is okay though.
+===
+title: Tom.Arcade
+tags: 
+colorID: 0
+position: 38,914
+---
+<<SetSpeaker Tom>>
+<<if $checked_arcade_times eq 0>>
+	An arcade hall. I remember we had some fun times there with little Mel and Judy.
+	<<set $checked_arcade_times to $checked_arcade_times + 1>>
+<<elseif $checked_arcade_times eq 1>>
+	Game Start… More like Game Over for me…
+	<<set $checked_arcade_times to $checked_arcade_times + 1>>
+<<else>>
+	No time to bring up nostalgic memories.
+<<endif>>
+===
+title: Tom.EntersFlat
+tags: 
+colorID: 1
+position: 37,698
+---
+<<SetSpeaker Tom>>
+What a rat hole…
+===
+title: Tom.Closet
+tags: 
+colorID: 0
+position: 261,911
+---
+<<SetSpeaker Tom>>
+Nothing here except for dead moth.
+===
+title: Tom.Sofa
+tags: 
+colorID: 0
+position: 478,912
+---
+<<SetSpeaker Tom>>
+This sofa seen better days for sure.
+===
+title: Tom.FlatBathroom
+tags: 
+colorID: 0
+position: 693,915
+---
+<<SetSpeaker Tom>>
+It’s an empty bathroom.
+===
+title: Tom.FlatBed
+tags: 
+colorID: 0
+position: 904,914
+---
+<<SetSpeaker Tom>>
+I don’t even wanna think what did this bed see.
+===
+title: Tom.TV
+tags: 
+colorID: 0
+position: 1119,907
+---
+<<SetSpeaker Tom>>
+An old TV-set… Wait, what’s this on the table? A photo?
+<<set $hasclue7 to true>>
+That bridge… Pollux bridge. I know where it is…
+===

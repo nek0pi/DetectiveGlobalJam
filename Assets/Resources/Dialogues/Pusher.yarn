@@ -1,0 +1,52 @@
+title: Pusher.Start
+tags: 
+colorID: 0
+position: -925,-1288
+---
+<<if $pushertalked eq 0>>
+<<SetSpeaker Tom>>
+Hey…
+<<SetSpeaker Pusher>>
+Whatchu want now? I’ve paid you this month! I ain’t gonna give you anythin’ mo’.
+<<SetSpeaker Tom>>
+I’m looking for a biker guy…
+<<SetSpeaker Pusher>>
+And what is it for me? I ain’t a snitch!
+<<SetSpeaker Tom>>
+[[If you tell me where I can find him you can keep the money for the next three months. |money]]
+[[He kidnapped my daughter, I have to find him! |daughter]]
+[[We suspect a white biker shot one of your crew.  |crew]]
+<<set $pushertalked to $pushertalked + 1>>
+<<else>>
+<<SetSpeaker Tom>>
+He won’t give me any more info.
+<<endif>>
+===
+title: money
+tags: 
+colorID: 0
+position: -1308,-987
+---
+<<SetSpeaker Pusher>>
+Hmpf… Alright. He lives in this building, third floor, the door’s covered with red paint. Now scram! I don’t wanna see you for the next three months!
+===
+title: daughter
+tags: 
+colorID: 0
+position: -910,-798
+---
+<<SetSpeaker Pusher>>
+The fuck do I care? That’s your concern, pig.
+===
+title: crew
+tags: 
+colorID: 0
+position: -562,-952
+---
+<<SetSpeaker Pusher>>
+That bitch what? I’m gonna blast that fool myself.
+<<SetSpeaker Tom>>
+We’re not sure it was actually him. Here’s what I say, I check if it really was him and if he’s the guy I hand him to your gang on silver platter.
+<<SetSpeaker Pusher>>
+Third floor. The door next to the stairs.
+===

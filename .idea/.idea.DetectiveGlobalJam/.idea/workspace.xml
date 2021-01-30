@@ -2,277 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13ed1976-bc31-414d-b887-d6f8c85a3f80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Mixers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Mixers/GameAudioMixer.mixer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Mixers/GameAudioMixer.mixer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Name 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Name 1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Name.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Start.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Start.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Documentation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Documentation/Documentation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Documentation/Documentation.html.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Documentation/LeanGuide.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Documentation/LeanGuide.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/OFL.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/VarelaRound-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/VarelaRound-Regular.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Black.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Black.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Blue.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Blue.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Circuit.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Circuit.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Green.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Green.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grey.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grey.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grid.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grid.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Orange.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Orange.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Purple.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Purple.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Red.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Red.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Skybox.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Skybox.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/White.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/White.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Yellow.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Yellow.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Meshes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Canvas.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Canvas.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Grid.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Grid.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInUI.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInUI.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInWorld.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInWorld.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Label.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Label.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/RoundedCube.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/RoundedCube.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Skybox.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Skybox.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanLinkTo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanLinkTo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanUpgradeEventSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanUpgradeEventSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Alpha.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Alpha.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Object.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Object.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Skybox.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Skybox.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Description.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Description.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Grid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Grid.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Heart.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Left.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Right.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Extras.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanDestroy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanDestroy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanPath.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanPath.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanPlane.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanPlane.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanRoll.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanRoll.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanSpawn.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanSpawn.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/GUIDE.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/GUIDE.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/LeanCommon.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/LeanCommon.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanHelper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInput.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInput.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInspector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInspector.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Documentation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Documentation/Documentation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Documentation/Documentation.html.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/01 Localization.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/01 Localization.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/02 Phrase.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/02 Phrase.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/03 Text.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/03 Text.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/04 Change Language.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/04 Change Language.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/05 Image.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/05 Image.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/06 Renderer.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/06 Renderer.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/07 Token (Formatted Text).unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/07 Token (Formatted Text).unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/08    Local Token.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/08    Local Token.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/09 CSV.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/09 CSV.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/10 Organization.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/10 Organization.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/11 Prefabs.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/11 Prefabs.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/12 Dropdown.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/12 Dropdown.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/English Flag.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/English Flag.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/English Flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/English Flag.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/English.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/English.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/Good Morning.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/Good Morning.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/Hello.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/Hello.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/Japanese Flag.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/Japanese Flag.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/Japanese Flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/Japanese Flag.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/Japanese.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/Japanese.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/Spanish Flag.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/Spanish Flag.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/Spanish Flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/Spanish Flag.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/Spanish.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Examples/Media/Spanish.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/GUIDE.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/GUIDE.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/LeanLocalization.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/LeanLocalization.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedAudioSource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedAudioSource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedDropdown.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedDropdown.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedImage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedImage.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedRenderer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedRenderer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedSpriteRenderer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedSpriteRenderer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedText.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedText.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedTextFont.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedTextFont.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedTextMesh.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedTextMesh.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedTextMeshFont.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedTextMeshFont.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/TMP.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/TMP/LeanLocalization.TMP.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/TMP/LeanLocalization.TMP.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/TMP/LeanLocalizedTMP_Dropdown.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/TMP/LeanLocalizedTMP_Dropdown.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/TMP/LeanLocalizedTextMeshPro.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/TMP/LeanLocalizedTextMeshPro.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/TMP/LeanLocalizedTextMeshProFont.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/TMP/LeanLocalizedTextMeshProFont.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/TMP/LeanLocalizedTextMeshProUGUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/TMP/LeanLocalizedTextMeshProUGUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/TMP/LeanLocalizedTextMeshProUGUIFont.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/Behaviours/TMP/LeanLocalizedTextMeshProUGUIFont.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/ILocalizationHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/ILocalizationHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanLanguage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanLanguage.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanLanguageCSV.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanLanguageCSV.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanLanguageNameAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanLanguageNameAttribute.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanLocalToken.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanLocalToken.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanLocalization.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanLocalization.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanLocalizedBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanLocalizedBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanPhrase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanPhrase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanPrefab.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanPrefab.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanSource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanSource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanToken.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanToken.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanTranslation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanTranslation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanTranslationNameAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/Localization/Scripts/LeanTranslationNameAttribute.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/READ ME.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lean/READ ME.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Localization.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Localization/LeanLocalization.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Localization/LeanLocalization.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Localization/LocalizationManager.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Localization/LocalizationManager.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/TestScript.yarn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/TestScript.yarn.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/LoadGameScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Audio.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Management/LocalizationManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Management/LocalizationManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Management/TransportManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Management/TransportManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Save.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Save/SaveManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Save/SaveManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Settings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Settings/ResolutionManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Settings/ResolutionManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Vector 1 (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Vector 1 (1).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Vector 1 (12324).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Vector 1 (12324).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/background.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/main screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/main screen.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/menuhover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/menuhover.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Easy Save 3/Legacy/Easy Save 2.unitypackage.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LoadGameScene.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Easy Save 3/Resources/ES3/ES3Defaults.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Easy Save 3/Resources/ES3/ES3Defaults.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Le Tai's Asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Le Tai's Asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Dialogues/Billy.yarn.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Dialogues/Billy.yarn.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BoardScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BoardScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Management/MainMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Management/MainMenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/HintManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/HintManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/Singleton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DialogueTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DialogueTestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PauseScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PauseScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogues/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogues/DialogueManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogues/DialogueTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogues/DialogueTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/TransparentText.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/TransparentText.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -286,19 +23,27 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Evidence/Evidence.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogues/DialogueTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@e050b45804/Runtime/InMemoryVariableStorage.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8F894FE8-B7FF-4AF7-979C-06AF04D3E5A5/14/99650745/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/PlayerStates/PlayerBusyState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Managers/ToggleController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Managers/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/InputContoller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Managers/SpawnerManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeManager/TimeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/StateMachine/StateMachine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EA794459-0845-437F-86A9-78879988482B/73/c6000a55/Value.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/StateMachine/State.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@e050b45804/Runtime/DialogueRunner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/PlayerStates/PlayerNormalState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -323,6 +68,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/FocusOnEvidence.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Shaders/FadeInAlpha.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TimeManager/TimeManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dialogues/DialogueManager.cs" />
+      <option value="$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@e050b45804/Runtime/InMemoryVariableStorage.cs" />
+      <option value="$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@e050b45804/Runtime/DialogueRunner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dialogues/DialogueTest.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1niiZCq78AgDQ3kJWD6sTXAVaLV" />
@@ -342,10 +91,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="17020">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="17020" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -373,6 +122,7 @@
       <workItem from="1611917286976" duration="12284000" />
       <workItem from="1611943100343" duration="7108000" />
       <workItem from="1611951219890" duration="8419000" />
+      <workItem from="1612035194160" duration="7452000" />
     </task>
     <servers />
   </component>
@@ -398,21 +148,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Evidence/EvidenceParser.cs</url>
-          <line>14</line>
-          <properties documentPath="D:\GameDev\GameJams\DetectiveGlobalJam2021\DetectiveGlobalJam\Assets\Scripts\Evidence\EvidenceParser.cs" initialLine="14" containingFunctionPresentation="method 'Start'">
-            <startOffsets>
-              <option value="401" />
-            </startOffsets>
-            <endOffsets>
-              <option value="402" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="DotNet Exception Breakpoints" />
         <breakpoint suspend="NONE" type="javascript-exception" />

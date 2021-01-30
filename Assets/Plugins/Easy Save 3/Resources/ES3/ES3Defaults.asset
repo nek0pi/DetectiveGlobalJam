@@ -36,6 +36,9 @@ MonoBehaviour:
     - LeTai.TranslucentImage
     - YarnSpinner.Unity
     - DOTween.Modules
+    - LeanCommon
+    - LeanLocalization
+    - LeanLocalization.TMP
     - PsdPlugin
     - LeTai.TranslucentImage.Editor
     - YarnSpinner.Unity.Editor

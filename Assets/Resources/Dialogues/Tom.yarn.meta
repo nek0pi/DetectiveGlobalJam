@@ -1,0 +1,91 @@
+fileFormatVersion: 2
+guid: e9b57fb51591039409732816109c325a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Tom1-Tom.Start-0
+  - Tom1-Tom.Start-1
+  - Tom1-Tom.Start-2
+  - Tom1-Tom.Start-3
+  - Tom1-Tom.Start-4
+  - Tom1-Tom.Bathroom-5
+  - Tom1-Tom.FamilyPicture-6
+  - Tom1-Tom.FamilyPicture-7
+  - Tom1-Tom.FamilyPicture-8
+  - Tom1-Tom.FamilyPicture-9
+  - Tom1-Tom.FamilyPicture-10
+  - Tom1-Tom.Kitchen-11
+  - Tom1-Tom.Kitchen-12
+  - Tom1-Tom.Kitchen-13
+  - Tom1-Tom.Trash-14
+  - Tom1-Tom.Trash-15
+  - Tom1-Tom.Trash-16
+  - Tom1-Tom.Trash-17
+  - Tom1-Tom.Upstairs-18
+  - Tom1-Tom.Upstairs-19
+  - Tom1-Tom.LeftRoom-20
+  - Tom1-Tom.LeftRoom-21
+  - Tom1-Tom.LeftRoom-22
+  - Tom1-Tom.LeftRoom-23
+  - Tom1-Tom.Flower-24
+  - Tom1-Tom.Flower-25
+  - Tom1-Tom.Flower-26
+  - Tom1-Tom.Flower-27
+  - Tom1-Tom.MiddleRoom-28
+  - Tom1-Tom.MiddleRoom-29
+  - Tom1-Tom.MiddleRoom-30
+  - Tom1-Tom.MiddleRoom-31
+  - Tom1-Tom.RightRoom-32
+  - Tom1-Tom.Hanger-33
+  - Tom1-Tom.Posters-34
+  - Tom1-Tom.Posters-35
+  - Tom1-Tom.Posters-36
+  - Tom1-Tom.Table-37
+  - Tom1-Tom.Table-38
+  - Tom1-Tom.Bed-39
+  - Tom1-Tom.ReceivesCall-40
+  - Tom1-Tom.CallsMel-41
+  - Tom1-Tom.CallsMel-42
+  - Tom1-Tom.CallsMel-43
+  - Tom1-Tom.CallsMel-44
+  - Tom1-Tom.CallsMel-45
+  - Tom1-Tom.Video-46
+  - Tom1-Tom.Video-47
+  - Tom1-Tom.NoLocationAvailable-48
+  - Tom1-Tom.LocationUnlocked-49
+  - Tom1-Tom.GetsToBar-50
+  - Tom1-Tom.HotDogSign-51
+  - Tom1-Tom.BarDoor-52
+  - Tom1-Tom.GetsToSlums-53
+  - Tom1-Tom.GetsToSlums-54
+  - Tom1-Tom.GetsToSlums-55
+  - Tom1-Tom.SlumDoor-56
+  - Tom1-Tom.SlumDoor-57
+  - Tom1-Tom.SlumDoor-58
+  - Tom1-Tom.SlumDoor-59
+  - Tom1-Tom.Cinema-60
+  - Tom1-Tom.Cinema-61
+  - Tom1-Tom.Cinema-62
+  - Tom1-Tom.BCHSign-63
+  - Tom1-Tom.Arcade-64
+  - Tom1-Tom.Arcade-65
+  - Tom1-Tom.Arcade-66
+  - Tom1-Tom.EntersFlat-67
+  - Tom1-Tom.Closet-68
+  - Tom1-Tom.Sofa-69
+  - Tom1-Tom.FlatBathroom-70
+  - Tom1-Tom.FlatBed-71
+  - Tom1-Tom.TV-72
+  - Tom1-Tom.TV-73
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: e9b57fb51591039409732816109c325a, type: 3}
+  localizations: []
