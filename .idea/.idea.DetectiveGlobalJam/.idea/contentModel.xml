@@ -8,15 +8,88 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Lean" t="Include">
+          <e p="Common" t="Include">
+            <e p="Documentation" t="Include">
+              <e p="LeanGuide.cs" t="Include" />
+            </e>
+            <e p="Examples" t="Include">
+              <e p="Fonts" t="Include">
+                <e p="OFL.txt" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="LeanLinkTo.cs" t="Include" />
+                <e p="LeanUpgradeEventSystem.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="Alpha.shader" t="Include" />
+                <e p="Object.shader" t="Include" />
+                <e p="Skybox.shader" t="Include" />
+              </e>
+            </e>
+            <e p="Extras" t="Include">
+              <e p="LeanDestroy.cs" t="Include" />
+              <e p="LeanPath.cs" t="Include" />
+              <e p="LeanPlane.cs" t="Include" />
+              <e p="LeanRoll.cs" t="Include" />
+              <e p="LeanSpawn.cs" t="Include" />
+            </e>
+            <e p="LeanCommon.asmdef" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="LeanHelper.cs" t="Include" />
+              <e p="LeanInput.cs" t="Include" />
+              <e p="LeanInspector.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Localization" t="Include">
+            <e p="Examples" t="Include">
+              <e p="Media" t="Include">
+                <e p="English.txt" t="Include" />
+                <e p="Japanese.txt" t="Include" />
+                <e p="Spanish.txt" t="Include" />
+              </e>
+            </e>
+            <e p="LeanLocalization.asmdef" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Behaviours" t="Include">
+                <e p="LeanLocalizedAudioSource.cs" t="Include" />
+                <e p="LeanLocalizedDropdown.cs" t="Include" />
+                <e p="LeanLocalizedImage.cs" t="Include" />
+                <e p="LeanLocalizedRenderer.cs" t="Include" />
+                <e p="LeanLocalizedSpriteRenderer.cs" t="Include" />
+                <e p="LeanLocalizedText.cs" t="Include" />
+                <e p="LeanLocalizedTextFont.cs" t="Include" />
+                <e p="LeanLocalizedTextMesh.cs" t="Include" />
+                <e p="LeanLocalizedTextMeshFont.cs" t="Include" />
+                <e p="TMP" t="Include">
+                  <e p="LeanLocalization.TMP.asmdef" t="Include" />
+                  <e p="LeanLocalizedTextMeshPro.cs" t="Include" />
+                  <e p="LeanLocalizedTextMeshProFont.cs" t="Include" />
+                  <e p="LeanLocalizedTextMeshProUGUI.cs" t="Include" />
+                  <e p="LeanLocalizedTextMeshProUGUIFont.cs" t="Include" />
+                  <e p="LeanLocalizedTMP_Dropdown.cs" t="Include" />
+                </e>
+              </e>
+              <e p="ILocalizationHandler.cs" t="Include" />
+              <e p="LeanLanguage.cs" t="Include" />
+              <e p="LeanLanguageCSV.cs" t="Include" />
+              <e p="LeanLanguageNameAttribute.cs" t="Include" />
+              <e p="LeanLocalization.cs" t="Include" />
+              <e p="LeanLocalizedBehaviour.cs" t="Include" />
+              <e p="LeanLocalToken.cs" t="Include" />
+              <e p="LeanPhrase.cs" t="Include" />
+              <e p="LeanPrefab.cs" t="Include" />
+              <e p="LeanSource.cs" t="Include" />
+              <e p="LeanToken.cs" t="Include" />
+              <e p="LeanTranslation.cs" t="Include" />
+              <e p="LeanTranslationNameAttribute.cs" t="Include" />
+            </e>
+          </e>
+          <e p="READ ME.txt" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
             <e p="DOTween" t="Include">
-              <e p="DOTween.dll" t="Include" />
-              <e p="DOTween.XML" t="Include" />
-              <e p="Editor" t="Include">
-                <e p="DOTweenEditor.dll" t="Include" />
-                <e p="DOTweenEditor.XML" t="Include" />
-              </e>
               <e p="Modules" t="Include">
                 <e p="DOTween.Modules.asmdef" t="Include" />
                 <e p="DOTweenModuleAudio.cs" t="Include" />
@@ -251,14 +324,88 @@
               </e>
             </e>
           </e>
+          <e p="Le Tai's Asset" t="Include">
+            <e p="TranslucentImage" t="Include">
+              <e p="CHANGELOG.txt" t="Include" />
+              <e p="Demo" t="Include">
+                <e p="Fonts" t="Include">
+                  <e p="FONT LICENSE.txt" t="Include" />
+                </e>
+                <e p="Scripts" t="Include">
+                  <e p="AutoMoveAndRotate.cs" t="Include" />
+                  <e p="ChangeBlurConfig.cs" t="Include" />
+                  <e p="ColorSchemeManager.cs" t="Include" />
+                  <e p="ControlCenter.cs" t="Include" />
+                  <e p="FPSCounter.cs" t="Include" />
+                  <e p="LeTai.TranslucentImage.Demo.asmdef" t="Include" />
+                  <e p="PlatformPreset.cs" t="Include" />
+                  <e p="SetText.cs" t="Include" />
+                  <e p="SimpleCameraController.cs" t="Include" />
+                  <e p="SliderChangeOnStart.cs" t="Include" />
+                  <e p="ToggleSecondBlurLayer.cs" t="Include" />
+                  <e p="UnrestrictFramerate.cs" t="Include" />
+                  <e p="WorldSpaceSetup.cs" t="Include" />
+                </e>
+                <e p="Shader" t="Include">
+                  <e p="MobileVertexLitColor.shader" t="Include" />
+                </e>
+                <e p="Textures" t="Include">
+                  <e p="Example Photo" t="Include">
+                    <e p="PHOTO LICENSE.txt" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="LeTai.TranslucentImage.asmdef" t="Include" />
+              <e p="Online Documentation (recommended).txt" t="Include" />
+              <e p="Resources" t="Include">
+                <e p="EfficientBlur.shader" t="Include" />
+                <e p="FillCrop.shader" t="Include" />
+                <e p="TranslucentImage.shader" t="Include" />
+              </e>
+              <e p="Script" t="Include">
+                <e p="BlurAlgorithm" t="Include">
+                  <e p="BlurConfig.cs" t="Include" />
+                  <e p="IBlurAlgorithm.cs" t="Include" />
+                  <e p="ScalableBlur.cs" t="Include" />
+                  <e p="ScalableBlurConfig.cs" t="Include" />
+                </e>
+                <e p="Editor" t="Include">
+                  <e p="LeTai.TranslucentImage.Editor.asmdef" t="Include" />
+                  <e p="MenuIntegration.cs" t="Include" />
+                  <e p="ScalableBlurConfigEditor.cs" t="Include" />
+                  <e p="ScenceGizmoAutoDisable.cs" t="Include" />
+                  <e p="TranslucentImageEditor.cs" t="Include" />
+                  <e p="TranslucentImageSourceEditor.cs" t="Include" />
+                </e>
+                <e p="TranslucentImage.cs" t="Include" />
+                <e p="TranslucentImageEditorEnhancement.cs" t="Include" />
+                <e p="TranslucentImageMeshEffect.cs" t="Include" />
+                <e p="TranslucentImageSource.cs" t="Include" />
+                <e p="Utilities" t="Include">
+                  <e p="Extensions.cs" t="Include" />
+                  <e p="ResizableScreenRect.cs" t="Include" />
+                  <e p="ShaderId.cs" t="Include" />
+                </e>
+              </e>
+              <e p="UniversalRP README.txt" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Audio" t="Include">
+            <e p="AudioManager.cs" t="Include" />
+            <e p="AudioSliderController.cs" t="Include" />
+          </e>
           <e p="Controllers" t="Include">
             <e p="MovementController.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
           </e>
           <e p="Desk" t="Include">
             <e p="EvidenceDeskController.cs" t="Include" />
+          </e>
+          <e p="Dialogues" t="Include">
+            <e p="DialogueManager.cs" t="Include" />
+            <e p="DialogueTest.cs" t="Include" />
           </e>
           <e p="Evidence" t="Include">
             <e p="Evidence.cs" t="Include" />
@@ -268,18 +415,31 @@
             <e p="Interactive.cs" t="Include" />
             <e p="InteractiveOnLevel.cs" t="Include" />
           </e>
+          <e p="Loading" t="Include">
+            <e p="LoadingManager.cs" t="Include" />
+          </e>
           <e p="Management" t="Include">
+            <e p="HintManager.cs" t="Include" />
             <e p="InputManager.cs" t="Include" />
+            <e p="LocalizationManager.cs" t="Include" />
             <e p="MainMenuManager.cs" t="Include" />
             <e p="PauseManager.cs" t="Include" />
             <e p="TranslateManager.cs" t="Include" />
+            <e p="TransportManager.cs" t="Include" />
           </e>
           <e p="ProgressRelated" t="Include">
             <e p="DeckManager.cs" t="Include" />
             <e p="FocusOnEvidence.cs" t="Include" />
-            <e p="HintManager.cs" t="Include" />
             <e p="ISubscriber.cs" t="Include" />
             <e p="ProgressManager.cs" t="Include" />
+          </e>
+          <e p="Save" t="Include">
+            <e p="SaveManager.cs" t="Include" />
+          </e>
+          <e p="Settings" t="Include">
+            <e p="LocalizationSwitcher.cs" t="Include" />
+            <e p="ResolutionManager.cs" t="Include" />
+            <e p="ResolutionUI.cs" t="Include" />
           </e>
           <e p="Shaders" t="Include">
             <e p="BlurLerp.cs" t="Include" />
@@ -334,6 +494,12 @@
       </e>
       <e p="DetectiveGlobalJam.sln" t="IncludeFlat" />
       <e p="DOTween.Modules.csproj" t="IncludeRecursive" />
+      <e p="LeanCommon.csproj" t="IncludeRecursive" />
+      <e p="LeanLocalization.csproj" t="IncludeRecursive" />
+      <e p="LeanLocalization.TMP.csproj" t="IncludeRecursive" />
+      <e p="LeTai.TranslucentImage.csproj" t="IncludeRecursive" />
+      <e p="LeTai.TranslucentImage.Demo.csproj" t="IncludeRecursive" />
+      <e p="LeTai.TranslucentImage.Editor.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
