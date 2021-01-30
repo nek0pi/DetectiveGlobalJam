@@ -5,7 +5,7 @@ using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
 {
-    public static AudioManager instance;
+    public static AudioManager Instance;
     [SerializeField] AudioMixer gameMixer;
     [SerializeField] string masterMixerName;
     [SerializeField] string soundMixerName;
@@ -16,9 +16,9 @@ public class AudioManager : MonoBehaviour
 
     public void Start()
     {
-        if (instance == null)
-            instance = this;
-        else Destroy(this);
+        if (Instance == null)
+            Instance = this;
+        else Destroy(gameObject);
 
         DontDestroyOnLoad(gameObject);
     }

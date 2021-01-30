@@ -8,6 +8,6 @@ public class AudioSliderController : MonoBehaviour
 
     public void ChangeValue(float value)
     {
-        AudioManager.instance.SetMixerVolume(mixer, value);
+        AudioManager.Instance.SetMixerVolume(mixer, value);
     }
 }
