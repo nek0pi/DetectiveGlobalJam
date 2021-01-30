@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13ed1976-bc31-414d-b887-d6f8c85a3f80" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/Singleton.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +23,11 @@
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Managers/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/InputContoller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Managers/SpawnerManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeManager/TimeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/StateMachine/StateMachine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/StateMachine/State.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/PlayerStates/PlayerNormalState.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeManager/TimeManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -41,15 +43,15 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/StateManagement/StateMachine.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/MovementController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Utils/Singleton.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Shaders/BlurLerp.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/ProgressManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Evidence/EvidenceParser.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/FocusOnEvidence.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Shaders/FadeInAlpha.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TimeManager/TimeManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Evidence/EvidenceParser.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utils/Singleton.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1niiZCq78AgDQ3kJWD6sTXAVaLV" />
@@ -69,19 +71,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="16764">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="16764" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="16764">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="16764" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
