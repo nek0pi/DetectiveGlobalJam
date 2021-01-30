@@ -29,8 +29,16 @@ MonoBehaviour:
     referenceMode: 2
     serializationDepthLimit: 64
     assemblyNames:
+    - YarnSpinner.Unity
     - Assembly-CSharp-firstpass
+    - Assembly-CSharp
+    - Cinemachine
+    - DOTween.Modules
+    - LeanCommon
+    - LeanLocalization
+    - LeanLocalization.TMP
     - PsdPlugin
+    - YarnSpinner.Unity.Editor
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1

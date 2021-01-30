@@ -11,6 +11,12 @@
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
             <e p="DOTween" t="Include">
+              <e p="DOTween.dll" t="Include" />
+              <e p="DOTween.XML" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="DOTweenEditor.dll" t="Include" />
+                <e p="DOTweenEditor.XML" t="Include" />
+              </e>
               <e p="Modules" t="Include">
                 <e p="DOTween.Modules.asmdef" t="Include" />
                 <e p="DOTweenModuleAudio.cs" t="Include" />
@@ -247,8 +253,83 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="HintManager.cs" t="Include" />
-          <e p="Interactive.cs" t="Include" />
+          <e p="Controllers" t="Include">
+            <e p="MovementController.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
+          </e>
+          <e p="Desk" t="Include">
+            <e p="EvidenceDeskController.cs" t="Include" />
+          </e>
+          <e p="Evidence" t="Include">
+            <e p="Evidence.cs" t="Include" />
+            <e p="EvidenceParser.cs" t="Include" />
+          </e>
+          <e p="Interactive" t="Include">
+            <e p="Interactive.cs" t="Include" />
+            <e p="InteractiveOnLevel.cs" t="Include" />
+          </e>
+          <e p="Management" t="Include">
+            <e p="InputManager.cs" t="Include" />
+            <e p="MainMenuManager.cs" t="Include" />
+            <e p="PauseManager.cs" t="Include" />
+            <e p="TranslateManager.cs" t="Include" />
+          </e>
+          <e p="ProgressRelated" t="Include">
+            <e p="DeckManager.cs" t="Include" />
+            <e p="FocusOnEvidence.cs" t="Include" />
+            <e p="HintManager.cs" t="Include" />
+            <e p="ISubscriber.cs" t="Include" />
+            <e p="ProgressManager.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="BlurLerp.cs" t="Include" />
+            <e p="BlurShaderOriginal.shader" t="Include" />
+            <e p="FadeInAlpha.cs" t="Include" />
+          </e>
+          <e p="StateManagement" t="Include">
+            <e p="State.cs" t="Include" />
+            <e p="StateMachine.cs" t="Include" />
+            <e p="States" t="Include">
+              <e p="PlayerNormalState.cs" t="Include" />
+            </e>
+          </e>
+          <e p="TimeManager" t="Include">
+            <e p="TimeManager.cs" t="Include" />
+          </e>
+          <e p="Utils" t="Include">
+            <e p="Singleton.cs" t="Include" />
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
         </e>
       </e>
       <e p="DetectiveGlobalJam.sln" t="IncludeFlat" />
