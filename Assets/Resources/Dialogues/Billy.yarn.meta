@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 3390faf892f7d8c42ac1af96e30dd559
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - NewFile-Billy.Start-0
+  - NewFile-Billy.Start-1
+  - NewFile-Billy.Start-2
+  - NewFile-Billy.Start-3
+  - NewFile-Billy.Start-4
+  - NewFile-Billy.Start-5
+  - NewFile-Billy.Start-6
+  - NewFile-Billy.Start-7
+  - NewFile-Billy.Start-8
+  - NewFile-Billy.Start-9
+  - NewFile-Billy.Start-10
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 3390faf892f7d8c42ac1af96e30dd559, type: 3}
+  localizations: []
