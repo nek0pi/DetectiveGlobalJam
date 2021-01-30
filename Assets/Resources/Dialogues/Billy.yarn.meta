@@ -10,17 +10,17 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: en-US
   stringIDs:
-  - NewFile-Billy.Start-0
-  - NewFile-Billy.Start-1
-  - NewFile-Billy.Start-2
-  - NewFile-Billy.Start-3
-  - NewFile-Billy.Start-4
-  - NewFile-Billy.Start-5
-  - NewFile-Billy.Start-6
-  - NewFile-Billy.Start-7
-  - NewFile-Billy.Start-8
-  - NewFile-Billy.Start-9
-  - NewFile-Billy.Start-10
+  - Billy-Billy.Start-0
+  - Billy-Billy.Start-1
+  - Billy-Billy.Start-2
+  - Billy-Billy.Start-3
+  - Billy-Billy.Start-4
+  - Billy-Billy.Start-5
+  - Billy-Billy.Start-6
+  - Billy-Billy.Start-7
+  - Billy-Billy.Start-8
+  - Billy-Billy.Start-9
+  - Billy-Billy.Start-10
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 

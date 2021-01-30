@@ -1,7 +1,32 @@
-// StartNewGame()
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-// ShowSaves()
+public class MainMenuManager : MonoBehaviour
+{
+    public void StartNewGame()
+    {
+        Debug.Log("а Ты действительно не плох в нажатии кнопок");
+    }
 
-// CreditsRoll()
+    public void ShowSaves()
+    {
+        Debug.Log("Loading saves...");
+    }
 
-// Settings()
+    public void CreditsRoll()
+    {
+        Debug.Log("Loading credits...");
+    }
+
+    public void Settings()
+    {
+        Debug.Log("Here is your settings...");
+    }
+
+    public void Quit()
+    {
+        Debug.Log("Quitting...");
+        Application.Quit();
+    }
+}
