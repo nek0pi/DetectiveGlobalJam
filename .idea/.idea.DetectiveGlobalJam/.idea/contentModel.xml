@@ -293,6 +293,9 @@
               <e p="PlayerNormalState.cs" t="Include" />
             </e>
           </e>
+          <e p="TimeManager" t="Include">
+            <e p="TimeManager.cs" t="Include" />
+          </e>
           <e p="Utils" t="Include">
             <e p="Singleton.cs" t="Include" />
           </e>

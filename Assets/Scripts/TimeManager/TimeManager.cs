@@ -1,21 +1,27 @@
 ﻿using System;
-using Extensions.Interface.TimeManagement;
+using TMPro;
+using UnityEngine;
 
-namespace TimeManager
+public class TimeManager : Singleton<TimeManager>
 {
-    public class TimeManager : ITimeManager
+    public float timeRemaining { get; set; }
+    public Action onTimeOut;
+    public TextMeshProUGUI textUI;
+
+    public void ChangeTime(float time)
     {
-        public float timeRemaining { get; set; }
-        public bool timeExpired { get; set; }
-        
-        public void ChangeTime(float time)
+        timeRemaining -= time;
+        Mathf.Clamp(timeRemaining, 0, 100);
+        if (timeRemaining == 0)
         {
-            timeRemaining -= time;
-            timeRemaining = Math.Max(0, timeRemaining);
-            if (timeRemaining == 0)
-            {
-                timeExpired = true;
-            }
+            onTimeOut?.Invoke();
         }
+
+        UpdateUI();
+    }
+
+    private void UpdateUI()
+    {
+        textUI.text = timeRemaining.ToString("00");
     }
 }

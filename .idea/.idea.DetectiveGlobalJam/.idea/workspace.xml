@@ -4,14 +4,7 @@
     <list default="true" id="13ed1976-bc31-414d-b887-d6f8c85a3f80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CriticalEvidencePhoto.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CriticalEvidencePhoto.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CriticalEvidenceText.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CriticalEvidenceText.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/EvidenceData/Test.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/EvidenceData/Test.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BoardScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BoardScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Evidence/EvidenceParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Evidence/EvidenceParser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shaders/FadeInAlpha.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shaders/FadeInAlpha.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shaders/UIBackgroundBlur.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shaders/UIBackgroundBlur.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimeManager/TimeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimeManager/TimeManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,15 +17,17 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Evidence/Evidence.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Extensions/Interface/TimeManagement/ITimeManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/PlayerStates/PlayerBusyState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Managers/ToggleController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Managers/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/InputContoller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Managers/SpawnerManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/PlayerStates/PlayerBusyState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/StateMachine/StateMachine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/StateMachine/State.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LudumDare2020/LDStuckInTheLoopProduction/Assets/Scripts/Characters/PlayerStates/PlayerNormalState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeManager/TimeManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -56,6 +51,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Evidence/EvidenceParser.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/FocusOnEvidence.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Shaders/FadeInAlpha.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TimeManager/TimeManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1niiZCq78AgDQ3kJWD6sTXAVaLV" />
