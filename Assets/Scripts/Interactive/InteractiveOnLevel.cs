@@ -15,6 +15,7 @@ public class InteractiveOnLevel : Interactive
         if (raycastHit.collider.gameObject == gameObject)
         {
             Debug.Log(gameObject.tag);
+            CallDialogue(base.dialogIndex);
         }
 
     }
