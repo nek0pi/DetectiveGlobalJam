@@ -16,4 +16,9 @@ public class FadeInAlpha : MonoBehaviour
         texture.DOFade(maxNum, fadeInSpeed);
     }
 
+    private void OnDisable()
+    {
+        GetComponent<Image>().color = new Color(0,0,0,0);
+    }
+
 }

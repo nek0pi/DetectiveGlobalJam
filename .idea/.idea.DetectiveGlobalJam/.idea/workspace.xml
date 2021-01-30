@@ -4,11 +4,13 @@
     <list default="true" id="13ed1976-bc31-414d-b887-d6f8c85a3f80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DetectiveGlobalJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Easy Save 3/Resources/ES3/ES3Defaults.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Easy Save 3/Resources/ES3/ES3Defaults.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CriticalEvidencePhoto.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CriticalEvidencePhoto.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CriticalEvidenceText.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CriticalEvidenceText.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/EvidenceData/Test.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/EvidenceData/Test.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/BoardScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BoardScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Evidence/EvidenceParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Evidence/EvidenceParser.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shaders/FadeInAlpha.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shaders/FadeInAlpha.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shaders/UIBackgroundBlur.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shaders/UIBackgroundBlur.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,12 +49,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/MovementController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/Singleton.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/ProgressManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Shaders/BlurLerp.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Shaders/FadeInAlpha.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/ProgressManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/DeckManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Evidence/EvidenceParser.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ProgressRelated/FocusOnEvidence.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Shaders/FadeInAlpha.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1niiZCq78AgDQ3kJWD6sTXAVaLV" />
@@ -102,7 +105,7 @@
       <workItem from="1611879411963" duration="621000" />
       <workItem from="1611917286976" duration="12284000" />
       <workItem from="1611943100343" duration="7108000" />
-      <workItem from="1611951219890" duration="1577000" />
+      <workItem from="1611951219890" duration="8419000" />
     </task>
     <servers />
   </component>
@@ -134,10 +137,10 @@
           <line>14</line>
           <properties documentPath="D:\GameDev\GameJams\DetectiveGlobalJam2021\DetectiveGlobalJam\Assets\Scripts\Evidence\EvidenceParser.cs" initialLine="14" containingFunctionPresentation="method 'Start'">
             <startOffsets>
-              <option value="394" />
+              <option value="401" />
             </startOffsets>
             <endOffsets>
-              <option value="395" />
+              <option value="402" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="9" />

@@ -11,6 +11,12 @@
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
             <e p="DOTween" t="Include">
+              <e p="DOTween.dll" t="Include" />
+              <e p="DOTween.XML" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="DOTweenEditor.dll" t="Include" />
+                <e p="DOTweenEditor.XML" t="Include" />
+              </e>
               <e p="Modules" t="Include">
                 <e p="DOTween.Modules.asmdef" t="Include" />
                 <e p="DOTweenModuleAudio.cs" t="Include" />
@@ -270,6 +276,7 @@
           </e>
           <e p="ProgressRelated" t="Include">
             <e p="DeckManager.cs" t="Include" />
+            <e p="FocusOnEvidence.cs" t="Include" />
             <e p="HintManager.cs" t="Include" />
             <e p="ISubscriber.cs" t="Include" />
             <e p="ProgressManager.cs" t="Include" />
