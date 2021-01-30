@@ -15,8 +15,6 @@ public class DialogueManager : Singleton<DialogueManager>
         Mel,
         Billy,
     }
-
-    public string[] characterNames;
     public enum Language
     {
         EnglishUS,
@@ -47,12 +45,15 @@ public class DialogueManager : Singleton<DialogueManager>
         {
             case Character.Mel:
                 dialogueRunner.Add(allDialogues["Mel"]);
+                dialogueRunner.StartDialogue(dialogueNameToTrigger);
                 break;
             case Character.MrWolf:
                 dialogueRunner.Add(allDialogues["Wolf"]);
+                dialogueRunner.StartDialogue(dialogueNameToTrigger);
                 break;
             case Character.Billy:
                 dialogueRunner.Add(allDialogues["Billy"]);
+                dialogueRunner.StartDialogue(dialogueNameToTrigger);
                 break;
         }
     }
