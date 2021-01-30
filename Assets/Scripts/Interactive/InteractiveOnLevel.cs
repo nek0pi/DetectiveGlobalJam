@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class InteractiveOnLevel : Interactive
 {
+
     public override void CallDialogue(int index)
     {
       
@@ -14,6 +15,10 @@ public class InteractiveOnLevel : Interactive
     {
         if (raycastHit.collider.gameObject == gameObject)
         {
+            if (Vector3.Distance(transform.position, NewPlayerController.Instance.transform.position) > .3f)
+            {
+                NewPlayerController.Instance.MoveWorldSpaceCharacter(transform.position);
+            }
             Debug.Log(gameObject.tag);
             CallDialogue(base.dialogIndex);
         }

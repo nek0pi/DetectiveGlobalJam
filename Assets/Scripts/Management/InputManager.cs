@@ -6,17 +6,19 @@ using UnityEngine;
 public class InputManager : Singleton<InputManager>
 {
     [HideInInspector] public Action<RaycastHit> allInteractive;
+    [HideInInspector] public Action<Vector3> allNonIneractive;
     public void Update()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
         RaycastHit hit = new RaycastHit();
-        if (Physics.Raycast(ray, out hit))
+        if (Input.GetMouseButtonDown(0))
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Physics.Raycast(ray, out hit))
             {
                 allInteractive?.Invoke(hit);
             }
+            allNonIneractive?.Invoke(Input.mousePosition);
         }
 
     }
