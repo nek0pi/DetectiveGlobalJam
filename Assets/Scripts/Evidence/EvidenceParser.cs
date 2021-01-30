@@ -9,7 +9,7 @@ public class EvidenceParser : MonoBehaviour
     [SerializeField] TextMeshProUGUI partialDescriptionText;
     [SerializeField] TextMeshProUGUI fullDescriptionText;
     [SerializeField] Image imageHolder;
-    [SerializeField] Evidence evidenceInfo;
+    [SerializeField] public Evidence evidenceInfo;
 
     private void Start()
     {
