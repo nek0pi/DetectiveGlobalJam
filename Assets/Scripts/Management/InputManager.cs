@@ -18,7 +18,11 @@ public class InputManager : Singleton<InputManager>
             {
                 allInteractive?.Invoke(hit);
             }
-            allNonIneractive?.Invoke(Input.mousePosition);
+            else 
+            {
+                allNonIneractive?.Invoke(Input.mousePosition);
+            }
+            
         }
 
     }
