@@ -8,10 +8,7 @@ public class LocalizationManager : Singleton<LocalizationManager>
     [SerializeField] GameObject leanLocalizationPrefab;
     [SerializeField] Language currentLanguage = Language.English;
 
-    public void Start()
-    {
-        SpawnLocalizationTool();
-    }
+
     public void SpawnLocalizationTool()
     {
         Instantiate(leanLocalizationPrefab);
@@ -33,6 +30,25 @@ public class LocalizationManager : Singleton<LocalizationManager>
         }
        
     }
+
+    public static void ChangeLanguage(Language language)
+    {
+        switch (language)
+        {
+            case Language.Russian:
+                Lean.Localization.LeanLocalization.CurrentLanguage = "Russian";
+                LocalizationManager.Instance.currentLanguage = Language.Russian;
+                //Add yarn localization
+                break;
+            case Language.English:
+                Lean.Localization.LeanLocalization.CurrentLanguage = "English";
+                LocalizationManager.Instance.currentLanguage = Language.English;
+                //Add yarn localization
+                break;
+        }
+
+    }
+
 
     public static string GetTranslation(string textName)
     {
