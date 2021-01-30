@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Yarn;
 using Yarn.Unity;
@@ -44,18 +45,23 @@ public class DialogueManager : Singleton<DialogueManager>
         switch (character)
         {
             case Character.Mel:
-                dialogueRunner.Add(allDialogues["Mel"]);
-                dialogueRunner.StartDialogue(dialogueNameToTrigger);
+                TriggerDialogue("Mel", dialogueNameToTrigger);
                 break;
             case Character.MrWolf:
-                dialogueRunner.Add(allDialogues["Wolf"]);
-                dialogueRunner.StartDialogue(dialogueNameToTrigger);
+                TriggerDialogue("Wolf", dialogueNameToTrigger);
                 break;
             case Character.Billy:
-                dialogueRunner.Add(allDialogues["Billy"]);
-                dialogueRunner.StartDialogue(dialogueNameToTrigger);
+                TriggerDialogue("Billy", dialogueNameToTrigger);
                 break;
         }
+    }
+
+    private void TriggerDialogue(string characterName, string dialogueNameToTrigger)
+    {
+        if (dialogueRunner.yarnScripts.Contains(allDialogues[characterName]) == false)
+            dialogueRunner.Add(allDialogues[characterName]);
+        dialogueRunner.StartDialogue(characterName + "." + dialogueNameToTrigger);
+        return;
     }
 
     public void ChangeLanguage(Language lang)
