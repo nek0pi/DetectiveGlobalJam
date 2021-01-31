@@ -726,7 +726,19 @@ MonoBehaviour:
       m_Calls: []
   onDialogueComplete:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3905030884652663232}
+        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+        m_MethodName: DialogueFinished
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3905030883273857469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1833,6 +1845,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueRunner: {fileID: 3905030883273857468}
   speakerNameText: {fileID: 3905030885224278681}
+  isInitialized: 0
   currentLanguage: 0
 --- !u!1 &3905030884892282196
 GameObject:

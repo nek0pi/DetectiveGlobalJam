@@ -19,6 +19,8 @@ public class LoadingManager : MonoBehaviour
         else Destroy(gameObject);
         DontDestroyOnLoad(gameObject);
     }
+    
+    
     public void OnLevelWasLoaded(int level)
     {
         if(needToFadeOut)
@@ -28,9 +30,16 @@ public class LoadingManager : MonoBehaviour
             SceneManager.LoadScene(managerLevelName, LoadSceneMode.Additive);
 
     }
+    
+    
     public static void LoadLevel(string levelName)
     {
         SceneManager.LoadScene(levelName);
+    }
+
+    public static void LoadLevelAdditive(string levelname)
+    {
+        SceneManager.LoadScene(levelname, LoadSceneMode.Additive);
     }
     public AnimatorStateInfo PlayAnimation(string animName)
     {
