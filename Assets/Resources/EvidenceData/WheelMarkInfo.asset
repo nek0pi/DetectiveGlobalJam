@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aab2dd07d53bbb8478b30c94cd5998d5, type: 3}
-  m_Name: SecretKey
+  m_Name: WheelMarkInfo
   m_EditorClassIdentifier: 
-  id: 0
-  partialDescription: a secret key
-  fullDescription: kas;ldk
+  id: 3
+  partialDescription: The trail led me to my old apartment on Middletown Street.
+  fullDescription: "The used matches perfectly match the ones I found in Mel\u2019s
+    room. I might follow them but it might take quite a while until I trace the bike."
   image: {fileID: 0}
   type: 0

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab2dd07d53bbb8478b30c94cd5998d5, type: 3}
+  m_Name: RadalInfo
+  m_EditorClassIdentifier: 
+  id: 2
+  partialDescription: "It\u2019s Middletown Street, there\u2019s no mistake."
+  fullDescription: "She\u2019s been hanging with some dude. See that Lamburgini bike
+    at the parking lot? That\u2019s his, kinda. He stole the bike and left it here
+    after it got broken. Don\u2019t know the name though. I saw them near the Game
+    Start arcade, there\u2019s a cinema nearby as well."
+  image: {fileID: 0}
+  type: 0
