@@ -8,40 +8,40 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: en-US
+  baseLanguageID: 
   stringIDs:
-  - Mel(1)-Mel.Start-0
-  - Mel(1)-Mel.Start-1
-  - Mel(1)-Mel.Start-2
-  - Mel(1)-Mel.Start-3
-  - Mel(1)-motherfucker-4
-  - Mel(1)-motherfucker-5
-  - Mel(1)-motherfucker-6
-  - Mel(1)-StepAway-7
-  - Mel(1)-StepAway-8
-  - Mel(1)-StepAway-9
-  - Mel(1)-Two-10
-  - Mel(1)-Two-11
-  - Mel(1)-Two-12
-  - Mel(1)-Continue-13
-  - Mel(1)-Continue-14
-  - Mel(1)-Continue-15
-  - Mel(1)-Continue-16
-  - Mel(1)-Continue-17
-  - Mel(1)-Continue-18
-  - Mel(1)-Continue-19
-  - Mel(1)-Continue-20
-  - Mel(1)-Continue-21
-  - Mel(1)-Continue-22
-  - Mel(1)-Continue-23
-  - Mel(1)-Continue-24
-  - Mel(1)-Continue-25
-  - Mel(1)-Continue-26
-  - Mel(1)-Continue-27
-  - Mel(1)-Continue-28
-  - Mel(1)-Bang-29
+  - Mel-Mel.Start-0
+  - Mel-Mel.Start-1
+  - Mel-Mel.Start-2
+  - Mel-Mel.Start-3
+  - Mel-motherfucker-4
+  - Mel-motherfucker-5
+  - Mel-motherfucker-6
+  - Mel-StepAway-7
+  - Mel-StepAway-8
+  - Mel-StepAway-9
+  - Mel-Two-10
+  - Mel-Two-11
+  - Mel-Two-12
+  - Mel-Continue-13
+  - Mel-Continue-14
+  - Mel-Continue-15
+  - Mel-Continue-16
+  - Mel-Continue-17
+  - Mel-Continue-18
+  - Mel-Continue-19
+  - Mel-Continue-20
+  - Mel-Continue-21
+  - Mel-Continue-22
+  - Mel-Continue-23
+  - Mel-Continue-24
+  - Mel-Continue-25
+  - Mel-Continue-26
+  - Mel-Continue-27
+  - Mel-Continue-28
+  - Mel-Bang-29
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {fileID: 7128917941130120860, guid: 396f2e5bfd1633b42b6755c3bfef258d, type: 3}
+  baseLanguage: {instanceID: 0}
   localizations: []
