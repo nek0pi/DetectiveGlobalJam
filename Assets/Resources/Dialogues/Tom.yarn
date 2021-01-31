@@ -785,7 +785,7 @@ The place is closed. I doubt breaking-in would be a good idea.
 title: Tom.GetsToSlums
 tags: 
 colorID: 1
-position: -396,699
+position: -396,698
 ---
 <<SetSpeaker Tom>>
 <<if $hasclue3 is true>>
@@ -794,6 +794,8 @@ position: -396,699
     This is the place. Third floor, room 302. What a coincidence…
 <<elseif $hasclue2 is true>>
     Okay, now I need to find that guy…
+<<else>> 
+    I have no idea what to do…
 <<endif>>
 ===
 title: Tom.SlumDoor
