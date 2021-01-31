@@ -15,7 +15,6 @@ public class NewPlayerController : MonoBehaviour
         InputManager.Instance.allInteractive += MoveCharacter;
         InputManager.Instance.allNonIneractive += MoveCharacter;
         OnWalkEnd += GetInteraction;
-        OnWalkEnd += hit => { characterAnimator.SetBool("isMoving", false); };
         characterAnimator = GetComponent<Animator>();
     }
 
@@ -72,6 +71,7 @@ public class NewPlayerController : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
         OnWalkEnd?.Invoke(hit);
+        characterAnimator.SetBool("isMoving", false);
     }
 
     public IEnumerator Moving(Vector3 position)
@@ -84,7 +84,7 @@ public class NewPlayerController : MonoBehaviour
             else transform.position = Vector3.MoveTowards(transform.position, position, .1f);
             yield return new WaitForEndOfFrame();
         }
-        OnWalkEnd?.Invoke(new RaycastHit());
+        characterAnimator.SetBool("isMoving", false);
     }
 
     public void GetInteraction(RaycastHit raycastHit)
