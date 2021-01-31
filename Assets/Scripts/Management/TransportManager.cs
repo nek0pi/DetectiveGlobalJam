@@ -15,8 +15,14 @@ public class TransportManager : Singleton<TransportManager>
         Apartment = 6,
         Bridge = 7,
         Hideout = 8,
+        MainScene = 9
     }
 
+    private Locations currentScene;
+    
+    
+    
+    
     public void TaxiDialogueStart()
     {
         DialogueManager.Instance.StartDialogue(DialogueManager.Character.Taxi, "Start");
