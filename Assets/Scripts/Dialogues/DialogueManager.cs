@@ -40,6 +40,13 @@ public class DialogueManager : Singleton<DialogueManager>
         
         dialogueRunner.AddCommandHandler("SetSpeaker" , SetSpeakerName);
         dialogueRunner.AddCommandHandler("AddClue" , AddClueFromDialogue);
+        dialogueRunner.AddCommandHandler("ReduceTime " , ReduceTime);
+    }
+
+    private void ReduceTime(string[] parameters)
+    {
+        if(Int32.Parse(parameters[0])  == 0) return;
+        TimeManager.Instance.ReduceTime(Int32.Parse(parameters[0]) * 360);
     }
 
 
