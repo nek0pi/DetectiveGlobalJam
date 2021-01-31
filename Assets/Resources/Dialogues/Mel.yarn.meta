@@ -1,0 +1,46 @@
+fileFormatVersion: 2
+guid: fb3b5390548eedc4aa246120461e9788
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Mel-Mel.Start-0
+  - Mel-Mel.Start-1
+  - Mel-Mel.Start-2
+  - Mel-motherfucker-3
+  - Mel-motherfucker-4
+  - Mel-motherfucker-5
+  - Mel-StepAway-6
+  - Mel-StepAway-7
+  - Mel-StepAway-8
+  - Mel-Two-9
+  - Mel-Two-10
+  - Mel-Two-11
+  - Mel-Continue-12
+  - Mel-Continue-13
+  - Mel-Continue-14
+  - Mel-Continue-15
+  - Mel-Continue-16
+  - Mel-Continue-17
+  - Mel-Continue-18
+  - Mel-Continue-19
+  - Mel-Continue-20
+  - Mel-Continue-21
+  - Mel-Continue-22
+  - Mel-Continue-23
+  - Mel-Continue-24
+  - Mel-Continue-25
+  - Mel-Continue-26
+  - Mel-Continue-27
+  - Mel-Bang-28
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

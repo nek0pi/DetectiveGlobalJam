@@ -17,7 +17,8 @@ public class DialogueManager : Singleton<DialogueManager>
         Tom,
         Mel,
         Billy,
-        Pusher
+        Pusher,
+        Paul
     }
     public enum Language
     {
@@ -36,6 +37,12 @@ public class DialogueManager : Singleton<DialogueManager>
         Debug.Log("All dialogues are loaded.");
         
         dialogueRunner.AddCommandHandler("SetSpeaker" , SetSpeakerName);
+        dialogueRunner.AddCommandHandler("AddClue" , AddClueFromDialogue);
+    }
+
+    private void AddClueFromDialogue(string[] parameters)
+    {
+        ProgressManager.Instance.AddEvidence(Int32.Parse(parameters[0]));
     }
 
     public Language currentLanguage = Language.EnglishUS;
@@ -78,8 +85,10 @@ public class DialogueManager : Singleton<DialogueManager>
         {
             case Language.Russian:
                 // todo switch to russian
+                DialogueManager.Instance.currentLanguage = Language.Russian;
                 break;
             case Language.EnglishUS:
+                di
                 //todo switch to engl
                 break;
             

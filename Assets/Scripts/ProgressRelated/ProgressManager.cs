@@ -8,7 +8,6 @@ public class ProgressManager : Singleton<ProgressManager>
 {
     private Dictionary<int, Evidence> availableEvidence { get; } = new Dictionary<int, Evidence>();
     public List<Evidence> CriticalEvidence { get; } = new List<Evidence>();
-    public List<Evidence> AdditionalEvidence { get; } = new List<Evidence>();
     private List<ISubscriber> subscribers{ get; } = new List<ISubscriber>();
 
     private void Start()
@@ -21,7 +20,7 @@ public class ProgressManager : Singleton<ProgressManager>
     }
     
 
-    public void AddCriticalEvidence(int id)
+    public void AddEvidence(int id)
     {
         if(availableEvidence[id] == null) return;
         
@@ -29,21 +28,14 @@ public class ProgressManager : Singleton<ProgressManager>
         NotifySubscribers(availableEvidence[id]);
     }
     
-    public void RemoveCriticalEvidence(int id)
+    public void RemoveEvidence(int id)
     {
         if (availableEvidence[id] != null && CriticalEvidence.Contains(availableEvidence[id]))
         {
             CriticalEvidence.Remove(availableEvidence[id]);
         }
     }
-
-    public void AddAdditionalEvidence(int id)
-    {
-        if(availableEvidence[id] == null) return;
-        
-        AdditionalEvidence.Add(availableEvidence[id]);
-        NotifySubscribers(availableEvidence[id]);
-    }
+    
 
     #region Observable Behavior
 
