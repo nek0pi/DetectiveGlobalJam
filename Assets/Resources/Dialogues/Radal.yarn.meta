@@ -1,0 +1,44 @@
+fileFormatVersion: 2
+guid: c9c2d946e4df066408b345c3d91adca5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Radal3-Radal.Start-0
+  - Radal3-Radal.Start-1
+  - Radal3-Radal.Start-2
+  - Radal3-Radal.Start-3
+  - Radal3-girl-4
+  - Radal3-girl-5
+  - Radal3-girl-6
+  - Radal3-girl-7
+  - Radal3-light-8
+  - Radal3-light-9
+  - Radal3-light-10
+  - Radal3-info-11
+  - Radal3-info-12
+  - Radal3-info-13
+  - Radal3-info-14
+  - Radal3-none-15
+  - Radal3-questions-16
+  - Radal3-questions-17
+  - Radal3-questions-18
+  - Radal3-sosig-19
+  - Radal3-sosig-20
+  - Radal3-sosig-21
+  - Radal3-sosig-22
+  - Radal3-sosig-23
+  - Radal3-twenty-24
+  - Radal3-twenty-25
+  - Radal3-hospital-26
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: c9c2d946e4df066408b345c3d91adca5, type: 3}
+  localizations: []

@@ -85,7 +85,7 @@ public class Singleton<T> : MonoBehaviour where T : Singleton<T>, new()
 [System.AttributeUsage( System.AttributeTargets.Class, Inherited = false )]
 public class SingularBehaviour : System.Attribute {
     public bool SpawnIfMissing { get; private set; }
-    public bool DontDestroy { get; private set; }
+    public bool DontDestroy { get; private set; } = true;
     public bool SearchInactive { get; private set; }
 	
     public static SingularBehaviour Default {

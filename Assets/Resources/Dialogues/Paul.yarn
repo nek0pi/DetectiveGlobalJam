@@ -1,0 +1,98 @@
+title: Paul.Start
+tags: 
+colorID: 0
+position: 129,618
+---
+<<SetSpeaker Tom>>
+Paul, it’s Tom. Melanie. She was taken.
+<<SetSpeaker Paul>>
+You got the number? Did you trace the call?
+<<SetSpeaker Tom>>
+No…
+<<SetSpeaker Paul>>
+Any clues?
+<<SetSpeaker Tom>>
+I need to think on it. I’ll check her social networks and call her friend Annie.
+<<SetSpeaker Paul>>
+I’ll get the guys on alert.
+<<SetSpeaker Tom>>
+Can’t risk with that. Wait until I find out at least something.
+<<SetSpeaker Paul>>
+Okay. If you need any help or advice – call me.
+<<SetSpeaker Tom>>
+Thanks, Paul.
+===
+title: Paul.Hint0
+tags: 
+colorID: 0
+position: 340,618
+---
+<<SetSpeaker Paul>>
+Look for anything that might give you a clue where to go. You probably should inspect her room more closely.
+===
+title: Paul.Hint1
+tags: 
+colorID: 0
+position: 553,615
+---
+<<SetSpeaker Paul>>
+You found a matchbook in her room? Does she smoke? Check the box, it might lead to a someplace
+===
+title: Paul.Hint2
+tags: 
+colorID: 0
+position: 129,829
+---
+<<SetSpeaker Paul>>
+You got the address. Check that biker bar but be careful. The place’s dangerous at night.
+===
+title: Paul.Hint3
+tags: 
+colorID: 0
+position: 341,832
+---
+<<SetSpeaker Paul>>
+You got the address and it’s district you used to live in? Well, guess you should check that place.
+===
+title: Paul.Hint4
+tags: 
+colorID: 0
+position: 553,828
+---
+<<SetSpeaker Paul>>
+Try to ask around. Maybe somebody saw something. You know, the usual stuff.
+===
+title: Paul.Hint5
+tags: 
+colorID: 0
+position: 130,1040
+---
+<<SetSpeaker Paul>>
+You got the address, it’s that multistory building you used to live in. Want me to dispatch a squad of our guys to you?
+<<SetSpeaker Tom>>
+No, I can’t risk bringing too much attention here. Thanks, Paul.
+===
+title: Paul.Hint6
+tags: 
+colorID: 0
+position: 345,1043
+---
+<<SetSpeaker Paul>>
+So... Some guy gave you a hint? Go ahead to that building be careful in case it's a trap.
+===
+title: Paul.Hint7
+tags: 
+colorID: 0
+position: 557,1049
+---
+<<SetSpeaker Paul>>
+Right across your old apartment? Well, just go to that building then,
+===
+title: Paul.Hint8
+tags: 
+colorID: 0
+position: 128,1250
+---
+<<SetSpeaker Paul>>
+So you found a photo of Mel and some guy? The Central Pollux bridge? You go there, I’ll send the SWAT team in case you don’t respond.
+===
