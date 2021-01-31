@@ -13,9 +13,14 @@ public class NewPlayerController : MonoBehaviour
     {
         InputManager.Instance.allInteractive += MoveCharacter;
         InputManager.Instance.allNonIneractive += MoveCharacter;
+        
         DialogueManager.Instance.onDialogueStarted += ChangeStateToDialog;
         DialogueManager.Instance.onDialogueHasFinished += ChangeStateToWalking;
+        PhoneManager.Instance.OnShow += ChangeStateToDialog;
+        PhoneManager.Instance.OnHide += ChangeStateToWalking;
+
         OnWalkEnd += GetInteraction;
+
     }
 
     public void ChangeStateToDialog()
