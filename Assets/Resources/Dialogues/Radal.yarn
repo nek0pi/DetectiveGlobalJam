@@ -1,0 +1,106 @@
+title: Radal.Start
+tags: 
+colorID: 0
+position: -223,-487
+---
+<<SetSpeaker Tom>>
+<<if $radaltalked eq 0>>
+[[Hey. Have you seen this girl on the picture? |girl]]
+[[Hey buddy, got a light? |light]]
+[[I have a couple of questions.  |questions]]
+<<set $checked__times to $checked__times + 1>>
+<<else>>
+	He won’t tell me anything now.
+<<endif>>
+===
+title: girl
+tags: 
+colorID: 0
+position: -447,-191
+---
+<<SetSpeaker Radal>>
+I don’t know. Maybe I did. What is it to you?
+<<SetSpeaker Tom>>
+[[I need to know where she might be. |info]]
+[[She’s my daughter, I’m looking for her. |info]]
+[[None of your goddamn business.  |none]]
+===
+title: light
+tags: 
+colorID: 0
+position: -227,-191
+---
+<<SetSpeaker Radal>>
+I don’t smoke.
+<<SetSpeaker Tom>>
+Have you seen this girl before?
+<<SetSpeaker Radal>>
+Maybe...
+[[info]]
+===
+title: info
+tags: 
+colorID: 0
+position: -170,209
+---
+<<SetSpeaker Radal>>
+Well… I might know where she is…
+<<SetSpeaker Tom>>
+[[Would you like me to buy you a hot-dog? |sosig]]
+[[Here’s twenty. Tell me everything you know. |twenty]]
+[[Start talking. Or else you end up in a hospital.  |hospital]]
+===
+title: none
+tags: 
+colorID: 0
+position: -652,210
+---
+<<SetSpeaker Radal>>
+You’re right about that. Good luck with your search.
+===
+title: questions
+tags: 
+colorID: 0
+position: 54,-188
+---
+<<SetSpeaker Radal>>
+Are you a cop or something?
+<<SetSpeaker Tom>>
+More like private detective right now.
+<<SetSpeaker Radal>>
+Hm...
+ [[info]]
+===
+title: sosig
+tags: 
+colorID: 0
+position: -388,500
+---
+<<SetSpeaker Radal>>
+Oh! Sosig! Yes! Nom-nom-nom. Okay.
+She’s been hanging with some dude. See that Lamburgini bike at the parking lot? That’s his, kinda.
+He stole the bike and left it here after it got broken. Don’t know the name though.
+I saw them near the Game Start arcade, there’s a cinema nearby as well. That’s all I know.
+<<set $hasclue2 to true>>
+<<AddClue 2>>
+//New location unlocked (Slums)
+<<SetSpeaker Tom>>
+I know the place… It’s Middletown Street, there’s no mistake.
+===
+title: twenty
+tags: 
+colorID: 0
+position: -125,495
+---
+<<SetSpeaker Radal>>
+Don’t mind if I do.
+There’s a Lamburgini bike at the bar. The dude who owns it might know something.
+===
+title: hospital
+tags: 
+colorID: 0
+position: 154,493
+---
+<<SetSpeaker Radal>>
+Oh no no no! I don’t wanna any trouble! I don’t know anything!
+===

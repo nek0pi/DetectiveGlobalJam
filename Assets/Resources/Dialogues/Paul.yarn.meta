@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: 63df1b0d8a7268146859e40599e56a3d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Paul-Paul.Start-0
+  - Paul-Paul.Start-1
+  - Paul-Paul.Start-2
+  - Paul-Paul.Start-3
+  - Paul-Paul.Start-4
+  - Paul-Paul.Start-5
+  - Paul-Paul.Start-6
+  - Paul-Paul.Start-7
+  - Paul-Paul.Start-8
+  - Paul-Paul.Hint0-9
+  - Paul-Paul.Hint1-10
+  - Paul-Paul.Hint2-11
+  - Paul-Paul.Hint3-12
+  - Paul-Paul.Hint4-13
+  - Paul-Paul.Hint5-14
+  - Paul-Paul.Hint5-15
+  - Paul-Paul.Hint6-16
+  - Paul-Paul.Hint7-17
+  - Paul-Paul.Hint8-18
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 63df1b0d8a7268146859e40599e56a3d, type: 3}
+  localizations: []

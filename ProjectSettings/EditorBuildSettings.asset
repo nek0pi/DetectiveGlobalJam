@@ -8,4 +8,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: 2fb26b2c9cb61a74ea53ceffb622e64d
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/House.unity
+    guid: 06373921b5d488f41a89a2b3930f71ee
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/DaughterRoom.unity
+    guid: 88d6e0184f8d311419faa7c0cc16b7d6
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Bar.unity
+    guid: 4413e8e252dd2f143b6d0473d7b1dea1
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Slums.unity
+    guid: f5933a390a8501d41bba8c3f6189a60d
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Apartment.unity
+    guid: fc06d28c490dace49a2f80593a3318f9
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Bridge.unity
+    guid: dc7bdb5bcb085e9419d427360a1fe11c
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Hideout.unity
+    guid: ba35847fb88edec42bd28866ff019179
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 40239b8ce8cda5e4281a805a8b44d398
   m_configObjects: {}

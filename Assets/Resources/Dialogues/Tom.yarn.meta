@@ -1,0 +1,116 @@
+fileFormatVersion: 2
+guid: 1c4dad8792b68054ea2bdb3a5d227131
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Tom7-Tom.Start-0
+  - Tom7-Tom.Start-1
+  - Tom7-Tom.Start-2
+  - Tom7-Tom.Start-3
+  - Tom7-Tom.Start-4
+  - Tom7-Tom.Bathroom-5
+  - Tom7-Tom.FamilyPicture-6
+  - Tom7-Tom.FamilyPicture-7
+  - Tom7-Tom.FamilyPicture-8
+  - Tom7-Tom.FamilyPicture-9
+  - Tom7-Tom.FamilyPicture-10
+  - Tom7-Tom.Kitchen-11
+  - Tom7-Tom.Kitchen-12
+  - Tom7-Tom.Kitchen-13
+  - Tom7-Tom.Trash-14
+  - Tom7-Tom.Trash-15
+  - Tom7-Tom.Trash-16
+  - Tom7-Tom.Trash-17
+  - Tom7-Tom.Upstairs-18
+  - Tom7-Tom.Upstairs-19
+  - Tom7-Tom.LeftRoom-20
+  - Tom7-Tom.LeftRoom-21
+  - Tom7-Tom.LeftRoom-22
+  - Tom7-Tom.LeftRoom-23
+  - Tom7-Tom.Flower-24
+  - Tom7-Tom.Flower-25
+  - Tom7-Tom.Flower-26
+  - Tom7-Tom.Flower-27
+  - Tom7-Tom.MiddleRoom-28
+  - Tom7-Tom.MiddleRoom-29
+  - Tom7-Tom.MiddleRoom-30
+  - Tom7-Tom.MiddleRoom-31
+  - Tom7-Tom.RightRoom-32
+  - Tom7-Tom.Hanger-33
+  - Tom7-Tom.Posters-34
+  - Tom7-Tom.Posters-35
+  - Tom7-Tom.Posters-36
+  - Tom7-Tom.Table-37
+  - Tom7-Tom.Table-38
+  - Tom7-Tom.Bed-39
+  - Tom7-Tom.ReceivesCall-40
+  - Tom7-Tom.CallsMel-41
+  - Tom7-Tom.CallsMel-42
+  - Tom7-Tom.CallsMel-43
+  - Tom7-Tom.CallsMel-44
+  - Tom7-Tom.CallsMel-45
+  - Tom7-Tom.Video-46
+  - Tom7-Tom.Video-47
+  - Tom7-Tom.NoLocationAvailable-48
+  - Tom7-Tom.LocationUnlocked-49
+  - Tom7-Tom.GetsToBar-50
+  - Tom7-Tom.HotDogSign-51
+  - Tom7-Tom.BarDoor-52
+  - Tom7-Tom.GetsToSlums-53
+  - Tom7-Tom.GetsToSlums-54
+  - Tom7-Tom.GetsToSlums-55
+  - Tom7-Tom.SlumDoor-56
+  - Tom7-Tom.SlumDoor-57
+  - Tom7-Tom.SlumDoor-58
+  - Tom7-Tom.SlumDoor-59
+  - Tom7-Tom.Cinema-60
+  - Tom7-Tom.Cinema-61
+  - Tom7-Tom.Cinema-62
+  - Tom7-Tom.BCHSign-63
+  - Tom7-Tom.Arcade-64
+  - Tom7-Tom.Arcade-65
+  - Tom7-Tom.Arcade-66
+  - Tom7-Tom.EntersFlat-67
+  - Tom7-Tom.Closet-68
+  - Tom7-Tom.Sofa-69
+  - Tom7-Tom.FlatBathroom-70
+  - Tom7-Tom.FlatBed-71
+  - Tom7-Tom.TV-72
+  - Tom7-Tom.TV-73
+  - Tom7-Tom.GotSosig-74
+  - Tom7-Tom.WheelMarks-75
+  - Tom7-Tom.WheelMarks-76
+  - Tom7-Tom.WheelMarks-77
+  - Tom7-Tom.WheelMarks-78
+  - Tom7-Tom.WheelMarks-79
+  - Tom7-Tom.WheelMarks-80
+  - Tom7-Tom.WheelMarks-81
+  - Tom7-follow-82
+  - Tom7-donot-83
+  - Tom7-Tom.Bike-84
+  - Tom7-Tom.Bike-85
+  - Tom7-Tom.Bike-86
+  - Tom7-Tom.Bike-87
+  - Tom7-Tom.Bike-88
+  - Tom7-Tom.Bike-89
+  - Tom7-Tom.Bike-90
+  - Tom7-Tom.Bike-91
+  - Tom7-wait-92
+  - Tom7-wait-93
+  - Tom7-wait-94
+  - Tom7-wait-95
+  - Tom7-wait-96
+  - Tom7-nowait-97
+  - Tom7-Tom.HideoutDoor-98
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 1c4dad8792b68054ea2bdb3a5d227131, type: 3}
+  localizations: []
