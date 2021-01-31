@@ -583,7 +583,7 @@ position: 243,31
 title: Tom.Upstairs
 tags: 
 colorID: 0
-position: 452,29
+position: 460,30
 ---
 <<SetSpeaker Tom>>
 <<if $checked_stairs_times eq 0>>
@@ -1023,4 +1023,13 @@ position: 482,699
 <<SetSpeaker Tom>>
 Need to go back...
 <<GoToScene 5>>
+===
+title: Tom.GoToHouse
+tags: 
+colorID: 0
+position: 693,702
+---
+<<SetSpeaker Tom>>
+Need to go back...
+<<GoToScene 2>>
 ===
