@@ -8,12 +8,15 @@ public class NewPlayerController : MonoBehaviour
     public Action<RaycastHit> OnWalkEnd;
     public PlayerState currentPlayerState;
     private Coroutine characterCoroutine;
+    private Animator characterAnimator;
 
     public void Start()
     {
         InputManager.Instance.allInteractive += MoveCharacter;
         InputManager.Instance.allNonIneractive += MoveCharacter;
         OnWalkEnd += GetInteraction;
+        OnWalkEnd += hit => { characterAnimator.SetBool("isMoving", false); };
+        characterAnimator = GetComponent<Animator>();
     }
 
     public void MoveCharacter(RaycastHit raycastHit)
@@ -54,11 +57,18 @@ public class NewPlayerController : MonoBehaviour
     }
     public IEnumerator Moving(Vector3 position, RaycastHit hit)
     {
+        characterAnimator.SetBool("isMoving", true);
         while (position != transform.position)
         {
             if (Vector3.Distance(position, transform.position) < .1f)
+            {
                 transform.position = position;
-            else transform.position = Vector3.MoveTowards(transform.position, position, .1f);
+            }
+
+            else
+            {
+                transform.position = Vector3.MoveTowards(transform.position, position, .1f);
+            }
             yield return new WaitForEndOfFrame();
         }
         OnWalkEnd?.Invoke(hit);
@@ -66,6 +76,7 @@ public class NewPlayerController : MonoBehaviour
 
     public IEnumerator Moving(Vector3 position)
     {
+        characterAnimator.SetBool("isMoving", true);
         while (position != transform.position)
         {
             if (Vector3.Distance(position, transform.position) < .1f)
@@ -73,6 +84,7 @@ public class NewPlayerController : MonoBehaviour
             else transform.position = Vector3.MoveTowards(transform.position, position, .1f);
             yield return new WaitForEndOfFrame();
         }
+        OnWalkEnd?.Invoke(new RaycastHit());
     }
 
     public void GetInteraction(RaycastHit raycastHit)
