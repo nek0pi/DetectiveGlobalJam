@@ -13,7 +13,7 @@ public class InteractiveOnLevel : Interactive
 
     public override void CallOnInteract()
     {
-        Debug.Log("sdsad");
+        Debug.Log(gameObject.tag);
         CallDialogue(base.dialogIndex);
     }
 }
