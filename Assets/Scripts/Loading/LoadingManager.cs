@@ -3,17 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadingManager : Singleton<LoadingManager>
+public class LoadingManager : MonoBehaviour
 {
+    public static LoadingManager Instance;
     [SerializeField] GameObject levelTransition;
     [SerializeField] string fadeIn;
     [SerializeField] string fadeOut;
     [SerializeField] bool needToFadeOut;
-    
+    [SerializeField] string managerLevelName;
+
+    public void Start()
+    {
+        if (Instance == null)
+            Instance = this;
+        else Destroy(gameObject);
+        DontDestroyOnLoad(gameObject);
+    }
     public void OnLevelWasLoaded(int level)
     {
         if(needToFadeOut)
             PlayAnimation(fadeOut);
+
+        if (SceneManager.GetActiveScene().name != "MainMenuScene")
+            SceneManager.LoadScene(managerLevelName, LoadSceneMode.Additive);
+
     }
     public static void LoadLevel(string levelName)
     {
