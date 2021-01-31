@@ -40,8 +40,14 @@ public class DialogueManager : Singleton<DialogueManager>
         
         dialogueRunner.AddCommandHandler("SetSpeaker" , SetSpeakerName);
         dialogueRunner.AddCommandHandler("AddClue" , AddClueFromDialogue);
-        dialogueRunner.AddCommandHandler("ReduceTime " , ReduceTime);
-        dialogueRunner.AddCommandHandler("GoToScene  " , GoToScene);
+        dialogueRunner.AddCommandHandler("ReduceTime" , ReduceTime);
+        dialogueRunner.AddCommandHandler("GoToScene" , GoToScene);
+        dialogueRunner.AddCommandHandler("Loose" , LooseEverything);
+    }
+
+    private void LooseEverything(string[] parameters)
+    {
+        //todo loose screen
     }
 
     private void GoToScene(string[] parameters)

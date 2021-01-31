@@ -26,9 +26,7 @@ public class TimeManager : Singleton<TimeManager>
 
     private void CallWithThreads()
     {
-        
-        //todo Double check the name for the dialogue to start
-        DialogueManager.Instance.StartDialogue(DialogueManager.Character.Kidnapper, "Threads" );
+        DialogueManager.Instance.StartDialogue(DialogueManager.Character.Kidnapper, "Threat" );
     }
 
     private void UpdateUI()
