@@ -18,7 +18,9 @@ public class DialogueManager : Singleton<DialogueManager>
         Mel,
         Billy,
         Pusher,
-        Paul
+        Paul,
+        Kidnapper,
+        Taxi,
     }
     public enum Language
     {
@@ -40,10 +42,6 @@ public class DialogueManager : Singleton<DialogueManager>
         dialogueRunner.AddCommandHandler("AddClue" , AddClueFromDialogue);
     }
 
-    private void AddClueFromDialogue(string[] parameters)
-    {
-        ProgressManager.Instance.AddEvidence(Int32.Parse(parameters[0]));
-    }
 
     public Language currentLanguage = Language.EnglishUS;
     
@@ -68,6 +66,9 @@ public class DialogueManager : Singleton<DialogueManager>
                 break;
             case Character.Pusher:
                 TriggerDialogue("Pusher", dialogueNameToTrigger);
+                break;
+            case Character.Kidnapper:
+                TriggerDialogue("Kidnapper", dialogueNameToTrigger);
                 break;
         }
     }
@@ -95,7 +96,7 @@ public class DialogueManager : Singleton<DialogueManager>
         }
     }
 
-    public void SetSpeakerName(string[] name)
+    private void SetSpeakerName(string[] name)
     {
         if (name[0] == "Null")
         {
@@ -104,4 +105,14 @@ public class DialogueManager : Singleton<DialogueManager>
         }
         speakerNameText.text = name[0];
     }
+    private void AddClueFromDialogue(string[] parameters)
+    {
+        ProgressManager.Instance.AddEvidence(Int32.Parse(parameters[0]));
+    }
+
+    private void TransportPlayer(int locationId)
+    {
+        TransportManager.Instance.TransportPlayer(locationId);
+    }
+
 }

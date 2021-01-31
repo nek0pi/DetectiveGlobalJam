@@ -5,7 +5,6 @@ using UnityEngine;
 public class TimeManager : Singleton<TimeManager>
 {
     public float timeRemaining { get; set; } = 21600f;
-    public Action onTimeOut;
     public TextMeshProUGUI textUI;
 
     private void Start()
@@ -13,16 +12,23 @@ public class TimeManager : Singleton<TimeManager>
         UpdateUI();
     }
     
-    public void ChangeTime(float time)
+    public void ReduceTime(float time)
     {
         timeRemaining -= time;
         Mathf.Clamp(timeRemaining, 0, int.MaxValue);
         if (timeRemaining == 0)
         {
-            onTimeOut?.Invoke();
+            CallWithThreads();
         }
 
         UpdateUI();
+    }
+
+    private void CallWithThreads()
+    {
+        
+        //todo Double check the name for the dialogue to start
+        DialogueManager.Instance.StartDialogue(DialogueManager.Character.Kidnapper, "Threads" );
     }
 
     private void UpdateUI()

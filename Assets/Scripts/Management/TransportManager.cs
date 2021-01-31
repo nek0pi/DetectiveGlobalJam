@@ -2,26 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TransportManager : MonoBehaviour
+public class TransportManager : Singleton<TransportManager>
 {
-    private Locations _currentLocation;
+    private Locations currentLocation;
 
     public enum Locations
     {
-        City,
-        Bar,
-        Appartment
+        House = 2,
+        DaughterRoom = 3,
+        Bar = 4,
+        Slums = 5,
+        Apartment = 6,
+        Bridge = 7,
+        Hideout = 8,
     }
 
-    public void TransportPlayer(Locations targetLocation)
+    public void TaxiDialogueStart()
     {
-        //SceneManager.LoadSceneAsync(targetLocation, LoadSceneMode.Single);
+        DialogueManager.Instance.StartDialogue(DialogueManager.Character.Taxi, "Start");
     }
 
-    public void FillDialogueOptions()
+    public void TransportPlayer(int id)
     {
-        // fills in dialog options into yarn dialogue system using available locations
-
-        // TODO: Connect Vlad's interface
+        Locations targetLocation = (Locations) id;
+        LoadingManager.LoadLevel(targetLocation.ToString());
+        TimeManager.Instance.ReduceTime(360);
     }
 }
