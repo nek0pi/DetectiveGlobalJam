@@ -1,7 +1,7 @@
 title: Vendor.Start
 tags: 
 colorID: 8
-position: -847,-1079
+position: -829,-1130
 ---
 <<if $vendortalked eq 0>>
 << SetSpeaker Vendor>> 
@@ -9,7 +9,7 @@ Good evening, sir, how may I help you?
 << SetSpeaker Tom>> 
 [[ Do you happen to see this girl?|girl]]
 [[ I’m looking for a biker who might live somewhere nearby.|biker]] 
-[[ One bucket of extra spicy strips with extra dip.No fries, no flies. |extraDip]]
+[[ Number 6 with extra dip. No fries, no flies. |extraDip]]
  <<set $vendortalked to $vendortalked + 1>>
 <<else>>
 <<SetSpeaker Tom>>
@@ -31,14 +31,18 @@ Wait… Your home screen. Isn’t that Judy and little cutie Melanie? Tom? Is th
 Not really. Thank you very much and have a nice evening, ma’am.
 << SetSpeaker Vendor>> 
 Take care now!
+<<set $hasclue6 to true>>
+<<AddClue 6>>
 ===
 title: biker
 tags: 
 colorID: 0
-position: -840,-622
+position: -842,-624
 ---
 << SetSpeaker Vendor>> 
 Ah, there’s some jackass riding all kind of bikes, lives on the third floor in that building over there.
+<<set $hasclue6 to true>>
+<<AddClue 6>>
 ===
 title: extraDip
 tags: 
@@ -55,4 +59,6 @@ Is that Mel?! My, oh my she changed a lot! Dyed her hair… Wait! I remember her
 Hold on with the order, I got to go now. Thank you so much for the info, I’ll see you later.
 << SetSpeaker Vendor>>
 Take care, Tom!
+<<set $hasclue6 to true>>
+<<AddClue 6>>
 ===
