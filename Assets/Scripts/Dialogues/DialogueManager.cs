@@ -48,6 +48,8 @@ public class DialogueManager : Singleton<DialogueManager>
         dialogueRunner.AddCommandHandler("GoToScene" , GoToScene);
         dialogueRunner.AddCommandHandler("Loose" , LooseEverything);
         dialogueRunner.AddCommandHandler("GoUpstairs" , GoUpstairs);
+        dialogueRunner.AddCommandHandler("TransportPlayer" , TransportPlayer);
+        
 
         isInitialized = true;
     }
@@ -132,9 +134,9 @@ public class DialogueManager : Singleton<DialogueManager>
         ProgressManager.Instance.AddEvidence(Int32.Parse(parameters[0]));
     }
 
-    private void TransportPlayer(int locationId)
+    private void TransportPlayer(string[] parameters)
     {
-        TransportManager.Instance.TransportPlayer(locationId);
+        TransportManager.Instance.TransportPlayer(Int32.Parse(parameters[0]));
     }
 
 }

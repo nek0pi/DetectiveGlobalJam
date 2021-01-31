@@ -84,7 +84,8 @@ position: 452,29
     Maybe she’s listening to the music? I should check up on her.
     <<set $checked_stairs_times to $checked__times + 1>>
 <<else>>
-	<<null>>
+	<<GoUpstairs>>
+	Maybe she's upstairs
 <<endif>>
 ===
 title: Tom.LeftRoom
@@ -152,9 +153,9 @@ position: 1297,21
 <<SetSpeaker Tom>>
 <<if $checked_rroom_times eq 0>>
     "Mel, can I come in?"
-    <<set $checked_rrom_times to $checked__times + 1>>
+    <<set $checked_rroom_times to $checked_rroom_times + 1>>
 <<else>>
-	<<null>>
+	<<GoToScene >>
 <<endif>>
 ===
 title: Tom.Hanger
@@ -591,8 +592,8 @@ position: 460,30
     Maybe she’s listening to the music? I should check up on her.
     <<set $checked_stairs_times to $checked__times + 1>>
 <<else>>
-	<<null>>
     <<GoUpstairs>>
+	Maybe she's upstairs
 <<endif>>
 ===
 title: Tom.LeftRoom
