@@ -12,6 +12,8 @@ public class DialogueManager : Singleton<DialogueManager>
     public DialogueRunner dialogueRunner;
     private Dictionary<string, YarnProgram> allDialogues = new Dictionary<string, YarnProgram>();
     public TextMeshProUGUI speakerNameText;
+    public Action onGoingUpstairs;
+    public bool isInitialized = false;
     public enum Character
     {
         Annie,
@@ -23,7 +25,6 @@ public class DialogueManager : Singleton<DialogueManager>
         Paul,
         Kidnapper,
         Taxi,
-        
     }
     public enum Language
     {
@@ -46,6 +47,14 @@ public class DialogueManager : Singleton<DialogueManager>
         dialogueRunner.AddCommandHandler("ReduceTime" , ReduceTime);
         dialogueRunner.AddCommandHandler("GoToScene" , GoToScene);
         dialogueRunner.AddCommandHandler("Loose" , LooseEverything);
+        dialogueRunner.AddCommandHandler("GoUpstairs" , GoUpstairs);
+
+        isInitialized = true;
+    }
+
+    private void GoUpstairs(string[] parameters)
+    {
+        onGoingUpstairs?.Invoke();
     }
 
     private void LooseEverything(string[] parameters)
@@ -55,6 +64,7 @@ public class DialogueManager : Singleton<DialogueManager>
 
     private void GoToScene(string[] parameters)
     {
+        Debug.Log("Going to scene " + parameters[0]);
         TransportManager.Locations targetLocation = (TransportManager.Locations) Int32.Parse(parameters[0]);
         LoadingManager.LoadLevel(targetLocation.ToString());
     }
@@ -75,7 +85,6 @@ public class DialogueManager : Singleton<DialogueManager>
     /// <param name="dialogueNameToTrigger"></param>
     public void StartDialogue(Character character,string dialogueNameToTrigger)
     {
-        Debug.Log(character.ToString());
         TriggerDialogue(character.ToString(), dialogueNameToTrigger);
     }
 
