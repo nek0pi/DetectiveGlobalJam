@@ -1,9 +1,12 @@
+using System;
 using UnityEngine;
 
 public class PauseManager : Singleton<PauseManager>
 {
     [SerializeField] private GameObject pauseScreen;
     [SerializeField] private GameObject pauseIcon;
+    public Action OnPause;
+    public Action OnPlay; 
 
     void Update()
     {
@@ -15,6 +18,10 @@ public class PauseManager : Singleton<PauseManager>
     
     public void PauseGame()
     {
+        if (pauseScreen.activeSelf)
+            OnPause?.Invoke();
+        else OnPlay?.Invoke();
+
         pauseScreen.SetActive(!pauseScreen.activeSelf);
         pauseIcon.SetActive(!pauseIcon.activeSelf);
     }

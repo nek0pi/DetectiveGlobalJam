@@ -16,6 +16,9 @@ public class NewPlayerController : MonoBehaviour
         InputManager.Instance.allNonIneractive += MoveCharacter;
         DialogueManager.Instance.onDialogueStarted += ChangeStateToDialog;
         DialogueManager.Instance.onDialogueHasFinished += ChangeStateToWalking;
+        PauseManager.Instance.OnPause += ChangeStateToWalking;
+        PauseManager.Instance.OnPlay += ChangeStateToDialog;
+
         OnWalkEnd += GetInteraction;
         OnWalkEnd += hit => { characterAnimator.SetBool("isMoving", false); };
         characterAnimator = GetComponent<Animator>();
