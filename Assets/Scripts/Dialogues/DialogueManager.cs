@@ -41,6 +41,13 @@ public class DialogueManager : Singleton<DialogueManager>
         dialogueRunner.AddCommandHandler("SetSpeaker" , SetSpeakerName);
         dialogueRunner.AddCommandHandler("AddClue" , AddClueFromDialogue);
         dialogueRunner.AddCommandHandler("ReduceTime " , ReduceTime);
+        dialogueRunner.AddCommandHandler("GoToScene  " , GoToScene);
+    }
+
+    private void GoToScene(string[] parameters)
+    {
+        //Locations targetLocation = (Locations) id;
+        //LoadingManager.LoadLevel(targetLocation.ToString());
     }
 
     private void ReduceTime(string[] parameters)

@@ -184,7 +184,7 @@ position: 1726,23
 title: Tom.Table
 tags: 
 colorID: 0
-position: 1945,27
+position: 1946,27
 ---
 <<SetSpeaker Tom>>
 <<if $checked__times eq 0>>
@@ -193,6 +193,7 @@ position: 1945,27
 <<else>>
 	A matchbook huh? I’ll take this. Now we really need to talk.
     <<set $hasclue0 to true>>
+    <<AddClue 0>>
 <<endif>>
 ===
 title: Tom.Bed
@@ -293,8 +294,10 @@ colorID: 1
 position: -179,701
 ---
 <<SetSpeaker Tom>>
-<<if $hasclue4 is true or $hasclue5 or $hasclue6>>
+<<if $hasclue4 is true or $hasclue5 is true or $hasclue6 is true>>
+//Teleport to Flat
     Here goes nothing…
+<<TransportPlayer 6>>
 <<else>>
     <<if $checked_slumdoor_times eq 0>>
 	    Normally I would storm the place with a SWAT team but I don’t want to bring unwanted attention.
@@ -395,5 +398,99 @@ position: 1119,907
 <<SetSpeaker Tom>>
 An old TV-set… Wait, what’s this on the table? A photo?
 <<set $hasclue7 to true>>
+<<AddClue 7>>
 That bridge… Pollux bridge. I know where it is…
+===
+title: Tom.GotSosig
+tags: 
+colorID: 1
+position: -178,253
+---
+<<SetSpeaker Tom>>
+I know the place… It’s Middletown Street, there’s no mistake.
+===
+title: Tom.WheelMarks
+tags: 
+colorID: 0
+position: 45,468
+---
+<<SetSpeaker Tom>>
+<<if $hasclue0 is true>>
+Wheel marks. Somebody’s really likes drifting.
+Wait, what’s this?
+These used matches perfectly match the ones I found in Mel’s room.
+I might follow them but it might take quite a while until I trace the bike.
+<<SetSpeaker Null>>
+//Teleports to Slums AND -3 hours
+[[Follow the trails. |follow]]
+//Nothing happens
+[[Don’t. |donot]]
+<<else>>
+Wheel marks. Somebody’s really likes drifting. There are some used matches here as well.	
+<<endif>>
+===
+title: follow
+tags: 
+colorID: 0
+position: 331,276
+---
+<<SetSpeaker Tom>>
+Let's see where it goes...
+<<set $hasclue3 to true>>
+<<AddClue 5>>
+<<TransportPlayer 3>>
+===
+title: donot
+tags: 
+colorID: 0
+position: 328,482
+---
+<<SetSpeaker Tom>>
+I don't have much time for that.
+===
+title: Tom.Bike
+tags: 
+colorID: 0
+position: 555,481
+---
+<<if $checked_bike_times eq 0>>
+<<SetSpeaker Tom>>
+A fancy bike. Too fancy for a shithole like this. Looks like it’s in a bad shape. I should try call Paul to check it’s license plate.
+Paul, it’s me again, I need you to check number plates…
+It’s yellow Lamborghini bike, F2LTHR2TL
+<<SetSpeaker Paul>>
+Uhuh… The bike was reported stolen.
+I might look the city cameras for that shiny diamond but it might take a while. You got time?
+<<SetSpeaker Tom>>
+[[Not much, but I can wait. |wait]]
+[[Not really… |nowait]]
+<<else>>
+A fancy bike. Too bad it's broken.	
+<<endif>>
+===
+title: wait
+tags: 
+colorID: 0
+position: 885,282
+---
+<<SetSpeaker Paul>>
+It was seen on Middletown Street 41.
+Seems like the guy lives in that multi-store, third floor, room 302. Check it out.
+<<set $hasclue0 to true>>
+<<AddClue 4>>
+<<SetSpeaker Tom>>
+What the…? Uhm, Thanks, Paul, I see…
+<<SetSpeaker Paul>>
+Now when you reacted like that. Isn’t it the house you…
+<<SetSpeaker Tom>>
+It is… Gonna greet my new old neighbors.
+<<set $checked_bike_times to $checked_bike_times + 1>>
+===
+title: nowait
+tags: 
+colorID: 0
+position: 906,518
+---
+<<SetSpeaker Tom>>
+I can't afford to lose time.
 ===

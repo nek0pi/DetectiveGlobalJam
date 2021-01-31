@@ -12,7 +12,7 @@ public class DialogueTest : MonoBehaviour
 
     public void ShowADialogue2()
     {
-        DialogueManager.Instance.StartDialogue(DialogueManager.Character.Mel, "Start");
+        DialogueManager.Instance.StartDialogue(DialogueManager.Character.Tom, "BarDoor");
     }
 
     public void ShowVariablesInside()

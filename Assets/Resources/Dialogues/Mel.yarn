@@ -1,9 +1,10 @@
 title: Mel.Start
 tags: 
-colorID: 0
-position: -769,-1497
+colorID: 1
+position: -771,-1499
 ---
 << SetSpeaker Tom>> 
+And here we go!
 [[*Pull out your gun* Put your hands up motherfucker! |motherfucker]] 
 [[ You. Step away from my daughter. Now|StepAway]] 
 [[ So… What two of you are up to? |Two]]
@@ -11,7 +12,7 @@ position: -769,-1497
 title: motherfucker
 tags: 
 colorID: 0
-position: -1249,-987
+position: -1250,-988
 ---
 << SetSpeaker Mel>> 
 Dad! No! It’s Marco! Please! Don’t shoot! I’m fine! He did nothing to me! That’s all was my idea!
@@ -22,31 +23,33 @@ Dad! No! It’s Marco! Please! Don’t shoot! I’m fine! He did nothing to me! 
 title: StepAway
 tags: 
 colorID: 0
-position: -781,-1000
+position: -783,-975
 ---
 << SetSpeaker Mel>>
 Tom, Marco has nothing to do with it. That was my plan.
 << SetSpeaker Tom>>
 Tom? I’m your father, your dad.
 << SetSpeaker Mel>>
-[[ I lost my father after I lost my mom. Anyway…  |Continue]]
+I lost my father after I lost my mom. Anyway…
+[[ Continue ]]
 ===
 title: Two
 tags: 
 colorID: 0
-position: -196,-985
+position: -225,-973
 ---
 << SetSpeaker Mel>> 
 We planned to run off with the money you supposed to bring. But seems like that is not happening.
 << SetSpeaker Tom>>
 As I figured, that’s all was just a travesty.
 << SetSpeaker Mel>> 
- [[ Bravo, Sherlock. Yup…  |Continue]]
+Bravo, Sherlock. Yup…  
+[[ Continue ]]
 ===
 title: Continue
 tags: 
 colorID: 0
-position: -1512,-485
+position: -1436,-462
 ---
 << SetSpeaker Mel>>
 We faked my kidnaping. That’s it.
@@ -80,7 +83,7 @@ Forgive me if you can. I swear, if you do, I quit. We’ll move wherever you… 
 title: Bang
 tags: 
 colorID: 0
-position: -746,-499
+position: -681,-427
 ---
 << SetSpeaker Mel>> 
 NO! You… You bastard! You ruined my life! Again!

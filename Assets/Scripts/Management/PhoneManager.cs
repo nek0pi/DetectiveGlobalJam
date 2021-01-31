@@ -15,12 +15,12 @@ public class PhoneManager : Singleton<PhoneManager>
     public void ClosePhone()
     {
         phoneAnimator.SetBool("isOpened", false);
-        StartCoroutine("WaitAndClose");
+        StartCoroutine(WaitAndClose());
     }
 
     private IEnumerator WaitAndClose()
     {
-        yield return new WaitForSeconds(1.15f);
+        yield return new WaitForSeconds(1f);
         phoneScreenCanvas.SetActive(false);
     }
 }

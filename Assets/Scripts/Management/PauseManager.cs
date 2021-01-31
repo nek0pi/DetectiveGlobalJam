@@ -3,13 +3,8 @@ using UnityEngine;
 public class PauseManager : Singleton<PauseManager>
 {
     [SerializeField] private GameObject pauseScreen;
-    public static bool gameIsPaused;
-    
-    void Start()
-    {
-        pauseScreen.SetActive(gameIsPaused);
-    }
-    
+    [SerializeField] private GameObject pauseIcon;
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -20,17 +15,8 @@ public class PauseManager : Singleton<PauseManager>
     
     public void PauseGame()
     {
-        gameIsPaused = !gameIsPaused;
-        if(gameIsPaused)
-        {
-            Time.timeScale = 0f;
-            pauseScreen.SetActive(!gameIsPaused);
-        }
-        else 
-        {
-            Time.timeScale = 1;
-            pauseScreen.SetActive(!gameIsPaused);
-        }
+        pauseScreen.SetActive(!pauseScreen.activeSelf);
+        pauseIcon.SetActive(!pauseIcon.activeSelf);
     }
 
     public void BackToMainMenu()
