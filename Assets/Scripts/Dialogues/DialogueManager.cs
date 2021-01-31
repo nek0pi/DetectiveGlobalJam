@@ -12,7 +12,7 @@ public class DialogueManager : Singleton<DialogueManager>
     public DialogueRunner dialogueRunner;
     private Dictionary<string, YarnProgram> allDialogues = new Dictionary<string, YarnProgram>();
     public TextMeshProUGUI speakerNameText;
-    public Action onGoingUpstairs;
+    public Action onGoingUpstairs, onDialogueHasFinished, onDialogueStarted;
     public bool isInitialized = false;
     public enum Character
     {
@@ -86,6 +86,8 @@ public class DialogueManager : Singleton<DialogueManager>
     public void StartDialogue(Character character,string dialogueNameToTrigger)
     {
         TriggerDialogue(character.ToString(), dialogueNameToTrigger);
+        //todo add here playerController changes
+        onDialogueStarted?.Invoke();
     }
 
     private void TriggerDialogue(string characterName, string dialogueNameToTrigger)
@@ -93,6 +95,11 @@ public class DialogueManager : Singleton<DialogueManager>
         dialogueRunner.Clear();
         dialogueRunner.Add(allDialogues[characterName]);
         dialogueRunner.StartDialogue(characterName + "." + dialogueNameToTrigger);
+    }
+
+    public void DialogueFinished()
+    {
+        onDialogueHasFinished?.Invoke();
     }
 
     public void ChangeLanguage(Language lang)
