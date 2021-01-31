@@ -88,7 +88,7 @@ public class DialogueManager : Singleton<DialogueManager>
                 DialogueManager.Instance.currentLanguage = Language.Russian;
                 break;
             case Language.EnglishUS:
-                di
+                DialogueManager.Instance.currentLanguage = Language.EnglishUS;
                 //todo switch to engl
                 break;
             
