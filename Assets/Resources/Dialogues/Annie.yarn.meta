@@ -1,0 +1,49 @@
+fileFormatVersion: 2
+guid: 7f9e97cab1e611f43862d7e5e04a5396
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Annie-Annie.Start-0
+  - Annie-Annie.Start-1
+  - Annie-Annie.Start-2
+  - Annie-Annie.Start-3
+  - Annie-Annie.Start-4
+  - Annie-know-5
+  - Annie-know-6
+  - Annie-know-7
+  - Annie-know-8
+  - Annie-know-9
+  - Annie-see-10
+  - Annie-see-11
+  - Annie-see-12
+  - Annie-see-13
+  - Annie-see-14
+  - Annie-Where-15
+  - Annie-Where-16
+  - Annie-Where-17
+  - Annie-Where-18
+  - Annie-Where-19
+  - Annie-kidnapped-20
+  - Annie-kidnapped-21
+  - Annie-kidnapped-22
+  - Annie-kidnapped-23
+  - Annie-bitch-24
+  - Annie-missing-25
+  - Annie-missing-26
+  - Annie-badnews-27
+  - Annie-badnews-28
+  - Annie-badnews-29
+  - Annie-badnews-30
+  - Annie-badnews-31
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

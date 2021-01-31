@@ -5,15 +5,17 @@ using UnityEngine;
 
 public class InteractiveOnLevel : Interactive
 {
-    public override void CallDialogue(int index)
+    public DialogueManager.Character character;
+    public string nameOfDialogueToCall;
+    public override void CallDialogue()
     {
-      
-
+        if(nameOfDialogueToCall == null) return;
+        DialogueManager.Instance.StartDialogue(character, nameOfDialogueToCall);
     }
 
     public override void CallOnInteract()
     {
         Debug.Log(gameObject.tag);
-        CallDialogue(base.dialogIndex);
+        CallDialogue();
     }
 }

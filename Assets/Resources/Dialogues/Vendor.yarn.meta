@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: 2109dd0a3c8b1af46a0df461f01767e2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Vendor-Vendor.Start-0
+  - Vendor-Vendor.Start-1
+  - Vendor-Vendor.Start-2
+  - Vendor-Vendor.Start-3
+  - Vendor-Vendor.Start-4
+  - Vendor-girl-5
+  - Vendor-girl-6
+  - Vendor-girl-7
+  - Vendor-girl-8
+  - Vendor-girl-9
+  - Vendor-biker-10
+  - Vendor-extraDip-11
+  - Vendor-extraDip-12
+  - Vendor-extraDip-13
+  - Vendor-extraDip-14
+  - Vendor-extraDip-15
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

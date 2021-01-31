@@ -14,13 +14,16 @@ public class DialogueManager : Singleton<DialogueManager>
     public TextMeshProUGUI speakerNameText;
     public enum Character
     {
+        Annie,
+        Pusher,
+        Radal,
+        Vendor,
         Tom,
         Mel,
-        Billy,
-        Pusher,
         Paul,
         Kidnapper,
         Taxi,
+        
     }
     public enum Language
     {
@@ -73,24 +76,7 @@ public class DialogueManager : Singleton<DialogueManager>
     public void StartDialogue(Character character,string dialogueNameToTrigger)
     {
         Debug.Log(character.ToString());
-        switch (character)
-        {
-            case Character.Mel:
-                TriggerDialogue("Mel", dialogueNameToTrigger);
-                break;
-            case Character.Tom:
-                TriggerDialogue("Tom", dialogueNameToTrigger);
-                break;
-            case Character.Billy:
-                TriggerDialogue("Billy", dialogueNameToTrigger);
-                break;
-            case Character.Pusher:
-                TriggerDialogue("Pusher", dialogueNameToTrigger);
-                break;
-            case Character.Kidnapper:
-                TriggerDialogue("Kidnapper", dialogueNameToTrigger);
-                break;
-        }
+        TriggerDialogue(character.ToString(), dialogueNameToTrigger);
     }
 
     private void TriggerDialogue(string characterName, string dialogueNameToTrigger)

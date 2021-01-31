@@ -1,0 +1,38 @@
+title: Taxi.Start
+tags: 
+colorID: 0
+position: 362,214
+---
+<<SetSpeaker Taxi>>
+<<if $hasclue0 eq 1 or $hasclue1 eq 1>>
+    [[Biker bar on 5th Bulwark Avenue.|gotobar]]
+<<elseif $hasclue2 eq 1 or $hasclue3 eq 1 or $hasclue4 eq 1>>
+    [[Middletown Street.|gotoslums]]
+<<elseif $hasclue7 eq 1>>
+    [[Pollux bridge hideout.|gotobridge]]
+<<else>>
+    <<SetSpeaker Tom>>
+    I have no idea where to start looking. I need to find a lead first…
+<<endif>>
+===
+title: gotobar
+tags: 
+colorID: 0
+position: 106,426
+---
+<<TransportPlayer 4>>
+===
+title: gotoslums
+tags: 
+colorID: 0
+position: 486,490
+---
+<<TransportPlayer 5>>
+===
+title: gotobridge
+tags: 
+colorID: 0
+position: 755,346
+---
+<<TransportPlayer 7>>
+===

@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: 283742d799e10ba4da370ec3e0237e74
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Kidnapper-Kidnapper.Start-0
+  - Kidnapper-Kidnapper.Start-1
+  - Kidnapper-Kidnapper.Start-2
+  - Kidnapper-Kidnapper.Start-3
+  - Kidnapper-Kidnapper.Start-4
+  - Kidnapper-Kidnapper.Start-5
+  - Kidnapper-Kidnapper.Start-6
+  - Kidnapper-Kidnapper.Start-7
+  - Kidnapper-Kidnapper.Start-8
+  - Kidnapper-Kidnapper.Start-9
+  - Kidnapper-Kidnapper.Start-10
+  - Kidnapper-Kidnapper.Start-11
+  - Kidnapper-Kidnapper.Start-12
+  - Kidnapper-Kidnapper.Start-13
+  - Kidnapper-Kidnapper.Threat-14
+  - Kidnapper-Kidnapper.Threat-15
+  - Kidnapper-Kidnapper.Threat-16
+  - Kidnapper-Kidnapper.Threat-17
+  - Kidnapper-Kidnapper.Threat-18
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 283742d799e10ba4da370ec3e0237e74, type: 3}
+  localizations: []
