@@ -6,6 +6,7 @@ using UnityEngine;
 public class DeckManager : Singleton<DeckManager>, ISubscriber
 {
     public EvidenceParser[] referencedEvidenceObjects;
+    public GameObject boardObj;
     void Start()
     {
         ProgressManager.Instance.AddSubscriber(this);
@@ -23,5 +24,10 @@ public class DeckManager : Singleton<DeckManager>, ISubscriber
                 break;
             }
         }
+    }
+
+    public void HideShow()
+    {
+        boardObj.SetActive(!boardObj.activeSelf);
     }
 }
