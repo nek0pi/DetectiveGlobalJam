@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenuManager : Singleton<MainMenuManager>
 {
@@ -19,7 +20,8 @@ public class MainMenuManager : Singleton<MainMenuManager>
         Main.SetActive(menuState == MenuState.Main);
         Load.SetActive(menuState == MenuState.Load);
         SettingsObj.SetActive(menuState == MenuState.Settings);
-        //Credits.SetActive(menuState == MenuState.Credits);
+
+        //LoadingManager.LoadLevel("CreditsScene");
     }
 
     public void ShowCurrentBackground()
@@ -61,8 +63,8 @@ public class MainMenuManager : Singleton<MainMenuManager>
     public void CreditsRoll()
     {
         Debug.Log("Loading credits...");
-        //currentMenuState = MenuState.Credits;
-        //SwitchToWindow(MenuState.Credits);
+        //currentMenuState = MenuState.Main;
+        //SwitchToWindow(MenuState.Main);
     }
 
     public void Settings()

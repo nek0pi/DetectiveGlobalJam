@@ -2512,7 +2512,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6893070111305658069, guid: cd73ead1226f0364199f48e11aede240, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6893070111305658069, guid: cd73ead1226f0364199f48e11aede240, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2556,7 +2556,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9223023901669477424, guid: cd73ead1226f0364199f48e11aede240, type: 3}
       propertyPath: data
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9223023901669477424, guid: cd73ead1226f0364199f48e11aede240, type: 3}
       propertyPath: entries.Array.data[0].Object
@@ -3378,7 +3378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3068854393747775950, guid: 6eb6824243614cb4faf5c77b39324a09, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3068854393747775950, guid: 6eb6824243614cb4faf5c77b39324a09, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3720,63 +3720,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   translationName: UI/Settings
   FallbackText: Settings
---- !u!1001 &874216432
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8494784455116420803, guid: 65743303d331806438a7cb5b5219a4bf, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8494784455116420803, guid: 65743303d331806438a7cb5b5219a4bf, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8494784455116420803, guid: 65743303d331806438a7cb5b5219a4bf, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8494784455116420803, guid: 65743303d331806438a7cb5b5219a4bf, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8494784455116420803, guid: 65743303d331806438a7cb5b5219a4bf, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8494784455116420803, guid: 65743303d331806438a7cb5b5219a4bf, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8494784455116420803, guid: 65743303d331806438a7cb5b5219a4bf, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8494784455116420803, guid: 65743303d331806438a7cb5b5219a4bf, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8494784455116420803, guid: 65743303d331806438a7cb5b5219a4bf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8494784455116420803, guid: 65743303d331806438a7cb5b5219a4bf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8494784455116420803, guid: 65743303d331806438a7cb5b5219a4bf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8494784455116420805, guid: 65743303d331806438a7cb5b5219a4bf, type: 3}
-      propertyPath: m_Name
-      value: AudioManager
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 65743303d331806438a7cb5b5219a4bf, type: 3}
 --- !u!1 &897846958
 GameObject:
   m_ObjectHideFlags: 0
@@ -4717,7 +4660,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3192726628864345967, guid: 10aa6855b2e04594fac3fd30435f1fad, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3192726628864345967, guid: 10aa6855b2e04594fac3fd30435f1fad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5048,7 +4991,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1240227953
 GameObject:
@@ -5527,7 +5470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf51be86e70d7941bd40914206e4ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  translationName: UI/sound
+  translationName: UI/Sound
   FallbackText: 'sound:'
 --- !u!1 &1385160592
 GameObject:
