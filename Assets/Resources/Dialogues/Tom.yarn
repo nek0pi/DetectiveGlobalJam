@@ -1009,9 +1009,18 @@ I can't afford to lose time.
 title: Tom.HideoutDoor
 tags: 
 colorID: 1
-position: 261,699
+position: 260,699
 ---
 <<SetSpeaker Tom>>
 This is it…
 <<GoToScene 8>>
+===
+title: Tom.GoToStreet
+tags: 
+colorID: 0
+position: 482,699
+---
+<<SetSpeaker Tom>>
+Need to go back...
+<<GoToScene 5>>
 ===
