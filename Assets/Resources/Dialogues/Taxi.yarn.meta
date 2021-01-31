@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: d1a426cef14c5e64bb799f53e2c5d616
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Taxi4-Taxi.Start-0
+  - Taxi4-Taxi.Start-1
+  - Taxi4-Taxi.Start-2
+  - Taxi4-Taxi.Start-3
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: d1a426cef14c5e64bb799f53e2c5d616, type: 3}
+  localizations: []

@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 951253400dc3d3248b404f3f27159a75
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Pusher-Pusher.Start-0
+  - Pusher-Pusher.Start-1
+  - Pusher-Pusher.Start-2
+  - Pusher-Pusher.Start-3
+  - Pusher-Pusher.Start-4
+  - Pusher-Pusher.Start-5
+  - Pusher-Pusher.Start-6
+  - Pusher-Pusher.Start-7
+  - Pusher-money-8
+  - Pusher-daughter-9
+  - Pusher-crew-10
+  - Pusher-crew-11
+  - Pusher-crew-12
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

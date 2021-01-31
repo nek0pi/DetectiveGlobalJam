@@ -1,0 +1,102 @@
+title: Annie.Start
+tags: 
+colorID: 0
+position: -885,-1736
+---
+<< SetSpeaker Annie>> 
+Hello?
+<< SetSpeaker Tom>> 
+Hi Annie, it’s Mr. Wolf…
+[[ Do you happen to know where Melanie is? |know]] 
+[[ Where and when did you see Melanie for the last time? |see]]
+[[ Where is Melanie? |Where]]
+===
+title: know
+tags: 
+colorID: 0
+position: -1638,-1463
+---
+<< SetSpeaker Annie>> 
+No, sir, I don’t know. Why?
+<< SetSpeaker Tom>> 
+[[ She was kidnapped and I need to find her. |kidnapped]]
+[[ Don’t lie to me, bitch, now tell me everything you know.  |bitch]]
+[[ She’s missing, I need to know where can I find her. |missing]]
+[[ She always told me that you’re bad news. |badnews]]
+===
+title: see
+tags: 
+colorID: 0
+position: -885,-1210
+---
+<< SetSpeaker Annie>> 
+Uhm… Don’t know. Let me think… At school today. After the lunch.
+<< SetSpeaker Tom>> 
+[[ She was kidnapped and I need to find her. |kidnapped]]
+[[ Don’t lie to me, bitch, now tell me everything you know.  |bitch]]
+[[ She’s missing, I need to know where can I find her. |missing]]
+[[ She always told me that you’re bad news. |badnews]]
+===
+title: Where
+tags: 
+colorID: 0
+position: -190,-1434
+---
+<< SetSpeaker Annie>> 
+What kind of question is that? How could I know?
+<< SetSpeaker Tom>> 
+[[ She was kidnapped and I need to find her. |kidnapped]]
+[[ Don’t lie to me, bitch, now tell me everything you know.  |bitch]]
+[[ She’s missing, I need to know where can I find her. |missing]]
+[[ She always told me that you’re bad news. |badnews]]
+===
+title: kidnapped
+tags: 
+colorID: 0
+position: -1648,-495
+---
+<< SetSpeaker Annie>>
+Oh my goodness! It is terrible! I’m sorry, but I don’t know anything… She was at school today and that’s all. She went home after the classes…
+<< SetSpeaker Tom>> 
+Anything else? Literally anything.
+<< SetSpeaker Annie>>
+Uhm… No. That’s all I know I believe.
+<< SetSpeaker Tom>> 
+Give me a call if you remember anything else…
+===
+title: bitch
+tags: 
+colorID: 0
+position: -899,-505
+---
+<< SetSpeaker Annie>>
+Fuck off, jerk! *hangs up*
+===
+title: missing
+tags: 
+colorID: 0
+position: -329,-513
+---
+<< SetSpeaker Annie>>
+Oh, I got no idea where she might be. Maybe you should try calling her?
+<< SetSpeaker Tom>>
+Yeah, right… Thanks…
+===
+title: badnews
+tags: 
+colorID: 0
+position: 167,-513
+---
+<< SetSpeaker Annie>>
+She told you what? She’s the one hanging out with that freaky biker all the time, skipping classes, doing jack shit for the whole day!
+<< SetSpeaker Tom>>
+Where can I find that biker guy?
+<< SetSpeaker Annie>>
+Uh… oh… Was it a trick?
+<< SetSpeaker Tom>>
+Where… is... he?!
+<< SetSpeaker Annie>>
+…The bar on the 5th Bulwark Avenue. Just don’t tell Mel I said that…
+<<set $hasclue1 to true>>
+<<AddClue 1>>
+===

@@ -1,0 +1,48 @@
+title: Kidnapper.Start
+tags: 
+colorID: 0
+position: -1644,-1955
+---
+<<SetSpeaker Tom>>
+Yes?
+<< SetSpeaker Kidnapper>> 
+*distorted voice* Mister Wolf I presume?…
+<<SetSpeaker Tom>>
+Who’s asking?
+<< SetSpeaker Kidnapper>>
+Oh, I am somebody who knows a lot about you.
+<<SetSpeaker Tom>>
+...
+<< SetSpeaker Kidnapper>>
+Like I know where your daughter is… She’s here! Right beside me.
+<<SetSpeaker Tom>>
+What do you want?
+*I need to prolong this conversation. Maybe I could track them…*
+<< SetSpeaker Kidnapper>>
+Three hundred grand. In cash. You have 6 hours to collect. Otherwise you never see her again.
+<<SetSpeaker Tom>>
+How can I know she’s alright? If sh…
+<< SetSpeaker Kidnapper>>
+Don’t you worry, I’ll send you the video. You’ll see and hear her.
+<<SetSpeaker Tom>>
+Where should I leave the mone…
+<< SetSpeaker Kidnapper>>
+I’ll tell you when the time comes. Oh, and no cops. Aside from you. *hungs up*
+<<SetSpeaker Tom>>
+What ab… Damn…
+===
+title: Kidnapper.Threat
+tags: 
+colorID: 0
+position: -1320,-1972
+---
+<<SetSpeaker Null>> 
+*Phone rings*
+<<SetSpeaker Kidnapper>> 
+You got the money?
+<<SetSpeaker Tom>>
+I got only half, I need a little bit more ti…
+<<SetSpeaker Kidnapper>>
+You have 2 more hours. Leave the money on your wife’s grave. 
+And, by the way, we’ll start cutting her fingers off one by one for each hour late. Leave a message on her phone as soon as you leave the ransom. And no funny tricks or else she won’t die quickly.
+===
