@@ -33,7 +33,7 @@ public class PauseManager : Singleton<PauseManager>
         }
     }
 
-    public void LoadMenuScreen()
+    public void BackToMainMenu()
     {
         Debug.Log("LoadMenuScreen.Call");
         PauseGame();
@@ -52,7 +52,7 @@ public class PauseManager : Singleton<PauseManager>
         //todo: save manager to load game here
     }
 
-    public void LoadSettings()
+    public void Settings()
     {
         Debug.Log("LoadSettings.Call");
         //todo: screen manager to settings menu here
