@@ -46,8 +46,8 @@ public class DialogueManager : Singleton<DialogueManager>
 
     private void GoToScene(string[] parameters)
     {
-        //Locations targetLocation = (Locations) id;
-        //LoadingManager.LoadLevel(targetLocation.ToString());
+        TransportManager.Locations targetLocation = (TransportManager.Locations) Int32.Parse(parameters[0]);
+        LoadingManager.LoadLevel(targetLocation.ToString());
     }
 
     private void ReduceTime(string[] parameters)
