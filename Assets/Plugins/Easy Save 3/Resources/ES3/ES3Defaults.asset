@@ -39,6 +39,7 @@ MonoBehaviour:
     - LeanCommon
     - LeanLocalization
     - LeanLocalization.TMP
+    - LeTai.TranslucentImage.UniversalRP
     - PsdPlugin
     - LeTai.TranslucentImage.Editor
     - YarnSpinner.Unity.Editor

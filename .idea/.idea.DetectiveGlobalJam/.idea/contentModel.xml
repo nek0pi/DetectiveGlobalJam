@@ -8,6 +8,34 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Le Tai's Asset" t="Include">
+          <e p="TranslucentImage" t="Include">
+            <e p="Resources" t="Include">
+              <e p="UniversalRP" t="Include">
+                <e p="EfficientBlur_UniversalRP.shader" t="Include" />
+                <e p="FillCrop_UniversalRP.shader" t="Include" />
+                <e p="lib.hlsl" t="Include" />
+              </e>
+            </e>
+            <e p="Script" t="Include">
+              <e p="UniversalRP" t="Include">
+                <e p="BlurAlgorithm" t="Include">
+                  <e p="IBlurAlgorithm.cs" t="Include" />
+                  <e p="ScalableBlur.cs" t="Include" />
+                </e>
+                <e p="LeTai.TranslucentImage.UniversalRP.asmdef" t="Include" />
+                <e p="Render Pass" t="Include">
+                  <e p="TranslucentImageBlurRenderPass.cs" t="Include" />
+                  <e p="TranslucentImageBlurSource.cs" t="Include" />
+                </e>
+                <e p="Utilities" t="Include">
+                  <e p="ShaderId.cs" t="Include" />
+                  <e p="Utilities.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Lean" t="Include">
           <e p="Common" t="Include">
             <e p="Documentation" t="Include">
@@ -87,6 +115,7 @@
           </e>
           <e p="READ ME.txt" t="Include" />
         </e>
+        <e p="LoadMainScene.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
             <e p="DOTween" t="Include">
@@ -397,7 +426,9 @@
             <e p="AudioSliderController.cs" t="Include" />
           </e>
           <e p="Controllers" t="Include">
+            <e p="CursorManager.cs" t="Include" />
             <e p="MovementController.cs" t="Include" />
+            <e p="NewPlayerController.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
           </e>
           <e p="Desk" t="Include">
@@ -406,6 +437,7 @@
           <e p="Dialogues" t="Include">
             <e p="DialogueManager.cs" t="Include" />
             <e p="DialogueTest.cs" t="Include" />
+            <e p="PlayDialogueOnStart.cs" t="Include" />
           </e>
           <e p="Evidence" t="Include">
             <e p="Evidence.cs" t="Include" />
@@ -425,13 +457,16 @@
             <e p="MainMenuManager.cs" t="Include" />
             <e p="NotificationManager.cs" t="Include" />
             <e p="PauseManager.cs" t="Include" />
+            <e p="PhoneManager.cs" t="Include" />
             <e p="TranslateManager.cs" t="Include" />
             <e p="TransportManager.cs" t="Include" />
           </e>
+          <e p="PlayDialogOnStart.cs" t="Include" />
           <e p="ProgressRelated" t="Include">
             <e p="DeckManager.cs" t="Include" />
             <e p="FocusOnEvidence.cs" t="Include" />
             <e p="ISubscriber.cs" t="Include" />
+            <e p="PlayerTeleporter.cs" t="Include" />
             <e p="ProgressManager.cs" t="Include" />
           </e>
           <e p="Save" t="Include">
@@ -501,6 +536,7 @@
       <e p="LeTai.TranslucentImage.csproj" t="IncludeRecursive" />
       <e p="LeTai.TranslucentImage.Demo.csproj" t="IncludeRecursive" />
       <e p="LeTai.TranslucentImage.Editor.csproj" t="IncludeRecursive" />
+      <e p="LeTai.TranslucentImage.UniversalRP.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />

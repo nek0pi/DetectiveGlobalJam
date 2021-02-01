@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,6 +14,16 @@ public class MainMenuManager : Singleton<MainMenuManager>
 
     public GameObject MainBackground;
     public GameObject SettingsBackground;
+
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            if(Credits.activeSelf)
+                Credits.SetActive(false);
+        }
+    }
 
     public void SwitchToWindow(MenuState menuState)
     {
@@ -63,6 +74,7 @@ public class MainMenuManager : Singleton<MainMenuManager>
         Debug.Log("Loading credits...");
         //currentMenuState = MenuState.Credits;
         //SwitchToWindow(MenuState.Credits);
+        Credits.SetActive(true);
     }
 
     public void Settings()
