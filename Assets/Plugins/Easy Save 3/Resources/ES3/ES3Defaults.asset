@@ -33,13 +33,13 @@ MonoBehaviour:
     - LeTai.TranslucentImage.Demo
     - Assembly-CSharp
     - Cinemachine
+    - LeanCommon
     - LeTai.TranslucentImage
     - YarnSpinner.Unity
-    - DOTween.Modules
-    - LeanCommon
     - LeanLocalization
-    - LeanLocalization.TMP
     - LeTai.TranslucentImage.UniversalRP
+    - LeanLocalization.TMP
+    - DOTween.Modules
     - PsdPlugin
     - LeTai.TranslucentImage.Editor
     - YarnSpinner.Unity.Editor
